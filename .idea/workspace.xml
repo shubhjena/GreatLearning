@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/SpecialReversal.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Changed Directory">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/beans/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/beans/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/beans/EmployeeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/beans/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/beans/ManagerBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/dao/ManagerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/Lab_officeManagementTool/in/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/beans/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/beans/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/beans/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/beans/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/dao/CircleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/dao/RectangleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/dao/SquareDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/ui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +45,42 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2J1hjkVEpw7ur78K1PDe2fANBuS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/IDEA Projects/GreatLearning"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/GreatLearning&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week1.W1_OOPS_Shapes.ui.Main" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week1.W1_OOPS_Shapes.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed Directory">
+      <created>1671626760869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671626760869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +110,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changed Directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Directory" />
   </component>
 </project>
