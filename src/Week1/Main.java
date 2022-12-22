@@ -1,4 +1,4 @@
-package Week1.W1_OOPS_Shapes;
+package Week1;
 
 public class Main {
     public static void main(String[] args) {
