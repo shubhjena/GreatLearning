@@ -3,8 +3,8 @@ package Week2.W2_Assignment_OOPS.beans;
 import static java.lang.Math.PI;
 
 public class Circle implements Shape{
-    double radius;
-    static String type = "Circle";
+    private double radius;
+    String type = "Circle";
 
     public void setRadius(double radius) {
         this.radius = radius;

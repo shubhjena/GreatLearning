@@ -17,20 +17,10 @@ public class Triangle implements Shape {
     }
 
     @Override
-    public String toString() {
-        return "Triangle{" +
-                "side1=" + side1 +
-                ", side2=" + side2 +
-                ", side3=" + side3 +
-                '}';
-    }
-
-    @Override
     public double calculateTheArea() {
         double s = (side1+side2+side3)/2;
         return Math.sqrt(s*(s-side1)*(s-side2)*(s-side3));
     }
-
     @Override
     public double calculateThePerimeter() {
         return side1+side2+side3;
@@ -39,4 +29,13 @@ public class Triangle implements Shape {
     public String getType() {
         return type;
     }
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "side1=" + side1 +
+                ", side2=" + side2 +
+                ", side3=" + side3 +
+                '}';
+    }
+
 }

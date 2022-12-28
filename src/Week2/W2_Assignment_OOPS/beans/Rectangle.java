@@ -1,8 +1,7 @@
 package Week2.W2_Assignment_OOPS.beans;
 
 public class Rectangle implements Shape{
-    double length;
-    double breadth;
+    private double length, breadth;
     static  String type = "Rectangle";
 
     public void setLength(double length) {
@@ -14,13 +13,6 @@ public class Rectangle implements Shape{
     }
 
     @Override
-    public String toString() {
-        return "Rectangle{" +
-                "length=" + length +
-                ", breadth=" + breadth +
-                '}';
-    }
-    @Override
     public double calculateTheArea() {
         return length*breadth;
     }
@@ -31,5 +23,12 @@ public class Rectangle implements Shape{
     @Override
     public String getType() {
         return type;
+    }
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", breadth=" + breadth +
+                '}';
     }
 }

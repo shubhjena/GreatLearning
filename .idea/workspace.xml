@@ -6,8 +6,7 @@
       <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672249615090</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Week 2 Lab">
+      <created>1672250364893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672250364893</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
