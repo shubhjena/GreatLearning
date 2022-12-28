@@ -1,20 +1,12 @@
 package Week2.W2_Assignment_OOPS.beans;
 
-public class Rectangle extends Shape{
+public class Rectangle implements Shape{
     double length;
     double breadth;
     static  String type = "Rectangle";
 
-    public double getLength() {
-        return length;
-    }
-
     public void setLength(double length) {
         this.length = length;
-    }
-
-    public double getBreadth() {
-        return breadth;
     }
 
     public void setBreadth(double breadth) {

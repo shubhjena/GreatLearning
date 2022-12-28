@@ -54,11 +54,11 @@ public class HomeScreen {
                 case 4 -> {//Triangle
                     Triangle tri = new Triangle();
                     System.out.println("\n---Triangle---");
-                    System.out.println("Enter side 1: ");
+                    System.out.print("Enter side 1: ");
                     tri.setSide1(sc.nextDouble());
-                    System.out.println("Enter side 2: ");
+                    System.out.print("Enter side 2: ");
                     tri.setSide2(sc.nextDouble());
-                    System.out.println("Enter side 3: ");
+                    System.out.print("Enter side 3: ");
                     tri.setSide3(sc.nextDouble());
                     sDao.displayDetails(tri);
                     sDao.getPerimeter(tri);
