@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Changed Directory">
-      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/CurrentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/HomeScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/dao/ShapeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Week 2 Lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +96,35 @@
       <option name="project" value="LOCAL" />
       <updated>1671709618349</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Week 2 Assignment">
+      <created>1672248663366</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672248663366</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Week 2 Lab">
+      <created>1672248724764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672248724764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Week 2 Assignment">
+      <created>1672248831314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672248831314</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Week 2 Lab">
+      <created>1672248860796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672248860796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +141,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changed Directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Directory" />
+    <MESSAGE value="Week 2 Assignment" />
+    <MESSAGE value="Week 2 Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 Lab" />
   </component>
 </project>
