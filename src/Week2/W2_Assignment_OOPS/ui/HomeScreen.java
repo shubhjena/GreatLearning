@@ -43,10 +43,10 @@ public class HomeScreen {
                     sDao.getArea(rect);
                 }
                 case 3 -> {//Square
-                    Square sqr = new Square();
+                    Square sqr;
                     System.out.println("---Square---");
                     System.out.print("Enter the side of square: ");
-                    sqr.setSide(sc.nextDouble());
+                    sqr= new Square(sc.nextDouble());
                     sDao.displayDetails(sqr);
                     sDao.getPerimeter(sqr);
                     sDao.getArea(sqr);
