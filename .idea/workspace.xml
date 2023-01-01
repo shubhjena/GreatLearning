@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Week 2 Lab">
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/ui/HomeScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/beans/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/W2_Assignment_OOPS/ui/HomeScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/GreatLearning&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/IDEA Projects/Practice",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA Projects\GL_Weekly_Assignments\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Week2.Lab_bankManagementTool" />
     </key>
@@ -146,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672251764403</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Week 2 Lab">
+      <created>1672252945134</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672252945134</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
