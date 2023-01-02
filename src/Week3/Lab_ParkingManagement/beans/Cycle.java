@@ -1,6 +1,6 @@
-package Week3._ParkingManagement.beans;
+package Week3.Lab_ParkingManagement.beans;
 
-import Week3._ParkingManagement.dao.NotImplemented;
+import Week3.Lab_ParkingManagement.dao.NotImplemented;
 
 import java.time.LocalTime;
 

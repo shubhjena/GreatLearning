@@ -1,4 +1,4 @@
-package Week3._ParkingManagement.beans;
+package Week3.Lab_ParkingManagement.beans;
 import java.time.LocalTime;
 
 

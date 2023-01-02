@@ -1,6 +1,6 @@
-package Week3._ParkingManagement.dao;
+package Week3.Lab_ParkingManagement.dao;
 
-import Week3._ParkingManagement.beans.Vehicle;
+import Week3.Lab_ParkingManagement.beans.Vehicle;
 import java.time.LocalTime;
 
 public interface VehicleDao {

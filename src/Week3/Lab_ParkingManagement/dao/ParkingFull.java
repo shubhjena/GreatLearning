@@ -1,4 +1,4 @@
-package Week3._ParkingManagement.dao;
+package Week3.Lab_ParkingManagement.dao;
 
 public class ParkingFull extends RuntimeException{
     public ParkingFull(String message) {

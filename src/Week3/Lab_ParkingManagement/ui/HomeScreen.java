@@ -1,13 +1,13 @@
-package Week3._ParkingManagement.ui;
+package Week3.Lab_ParkingManagement.ui;
 
-import Week3._ParkingManagement.beans.Bike;
-import Week3._ParkingManagement.beans.Car;
-import Week3._ParkingManagement.beans.Cycle;
-import Week3._ParkingManagement.beans.Vehicle;
-import Week3._ParkingManagement.dao.IncorrectVehicleNoFormat;
-import Week3._ParkingManagement.dao.NotImplemented;
-import Week3._ParkingManagement.dao.ParkingFull;
-import Week3._ParkingManagement.dao.VehicleDaoImpl;
+import Week3.Lab_ParkingManagement.beans.Bike;
+import Week3.Lab_ParkingManagement.beans.Car;
+import Week3.Lab_ParkingManagement.beans.Cycle;
+import Week3.Lab_ParkingManagement.beans.Vehicle;
+import Week3.Lab_ParkingManagement.dao.IncorrectVehicleNoFormat;
+import Week3.Lab_ParkingManagement.dao.NotImplemented;
+import Week3.Lab_ParkingManagement.dao.ParkingFull;
+import Week3.Lab_ParkingManagement.dao.VehicleDaoImpl;
 
 import java.time.LocalTime;
 import java.util.Scanner;
@@ -29,7 +29,7 @@ public class HomeScreen {
         do {
             System.out.print("""
                     
-                    ---Welcome to ABC Parking Lot---
+                    ---Welcome to XXX Parking Lot---
                     Please select an Option:
                     1. Car
                     2. Bike
@@ -80,7 +80,7 @@ public class HomeScreen {
                 System.out.println(e.getMessage());
             }
         } while (ch != 9);
-        System.out.println("Exiting ABC Parking Lot...");
+        System.out.println("Exiting XXX Parking Lot...");
     }
 
     public static void isValidVehicleNo(String vehNo) throws IncorrectVehicleNoFormat{

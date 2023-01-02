@@ -1,7 +1,7 @@
-package Week3._ParkingManagement.beans;
+package Week3.Lab_ParkingManagement.beans;
 
 
-import Week3._ParkingManagement.dao.ParkingFull;
+import Week3.Lab_ParkingManagement.dao.ParkingFull;
 
 import java.time.LocalTime;
 
