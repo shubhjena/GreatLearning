@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Week 3 Lab">
-      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/IncorrectVehicleNoFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/NotImplemented.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/ParkingFull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/ui/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672602542444</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Week 3 Lab">
+      <created>1672643797283</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672643797283</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

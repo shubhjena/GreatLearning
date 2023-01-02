@@ -25,7 +25,6 @@ public class ParkingLot {
            return true;
        }
     }
-
     public void exitVehicle(String vehNo, LocalTime exitTime) {
         for (int i = 0; i < count; i++) {
             if (vehicle[i].vehicleNo.equals(vehNo)) {
@@ -35,7 +34,6 @@ public class ParkingLot {
             }
         }
     }
-
     public float computeCost(Vehicle v){
         return (v.exitTime.getHour() - v.entryTime.getHour())*v.getCostPerHour();
     }

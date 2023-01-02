@@ -17,9 +17,4 @@ public class VehicleDaoImpl implements VehicleDao{
     public void vehicleExit(String vehNo, LocalTime exitTime) {
     parkingLot.exitVehicle(vehNo,exitTime);
     }
-
-    @Override
-    public void computeCost() {
-    //to check the parking charges for a specified time
-    }
 }
