@@ -1,29 +1,29 @@
 package Week3._ParkingManagement.beans;
 
 
+import Week3._ParkingManagement.dao.ParkingFull;
+
 import java.time.LocalTime;
 
 public class ParkingLot {
-
-    Vehicle[] vehicle = new Vehicle[20];
-    int count=0;
+    private final int capacity=20;
+    private int count=0;
+    Vehicle[] vehicle = new Vehicle[capacity];
     public boolean parkVehicle(Vehicle v) {
-        if(count < 20){
-            v.setSlotNo(count);
-            vehicle[count] = v;
-            count ++;
-            return true;
-        }
-        else {
-            for (int i = 0; i < count;i++) {
-                if (vehicle[i].vehicleNo == null) {
-                    v.setSlotNo(i);
-                    vehicle[i] = v;
-                    return true;
-                }
-            }
-        }
-        return false;
+       for (int i = 0; i < count;i++) {
+           if (vehicle[i] == null) {
+                v.setSlotNo(i);
+                vehicle[i] = v;
+                return true;
+           }
+       }
+       if (count==capacity) throw new ParkingFull("No parking space available!");
+       else{
+           v.setSlotNo(count);
+           vehicle[count] = v;
+           count++;
+           return true;
+       }
     }
 
     public void exitVehicle(String vehNo, LocalTime exitTime) {

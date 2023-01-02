@@ -6,6 +6,7 @@ public abstract class Vehicle {
     String vehicleNo;
     LocalTime entryTime, exitTime;
     int slotNo;
+
     public Vehicle(String vehicleNo, LocalTime entryTime){
         this.vehicleNo = vehicleNo;
         this.entryTime = entryTime;
@@ -15,7 +16,6 @@ public abstract class Vehicle {
     public int getSlotNo() {
         return slotNo;
     }
-
     public void setSlotNo(int slotNo) {
         this.slotNo = slotNo;
     }

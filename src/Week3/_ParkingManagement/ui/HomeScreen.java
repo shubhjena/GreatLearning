@@ -2,7 +2,11 @@ package Week3._ParkingManagement.ui;
 
 import Week3._ParkingManagement.beans.Bike;
 import Week3._ParkingManagement.beans.Car;
+import Week3._ParkingManagement.beans.Cycle;
 import Week3._ParkingManagement.beans.Vehicle;
+import Week3._ParkingManagement.dao.IncorrectVehicleNoFormat;
+import Week3._ParkingManagement.dao.NotImplemented;
+import Week3._ParkingManagement.dao.ParkingFull;
 import Week3._ParkingManagement.dao.VehicleDaoImpl;
 
 import java.time.LocalTime;
@@ -14,13 +18,7 @@ public class HomeScreen {
 
     public static void main(String[] args) {
         int ch; // menu variable
-
-        //vehicle attributes
         String vehicleNo;
-        LocalTime entryTime, exitTime;
-
-        //Vehicle registration number format
-        Pattern pat = Pattern.compile("^[A-Z]{2}-?\\d{2}-?[A-Z]{2}-?\\d{4}$",Pattern.CASE_INSENSITIVE);
         Scanner sc = new Scanner(System.in);
 
         //Home-screen data passing Objects
@@ -30,6 +28,7 @@ public class HomeScreen {
         //MainMenu Loop
         do {
             System.out.print("""
+                    
                     ---Welcome to ABC Parking Lot---
                     Please select an Option:
                     1. Car
@@ -39,56 +38,57 @@ public class HomeScreen {
                     9. Close program
                     Enter the option number:""");
             ch = Integer.parseInt(sc.nextLine());
-            switch (ch) {
-                case 1: //Car
-                    System.out.println("Enter the Vehicle Registration no:");
-                    vehicleNo = sc.nextLine();
-                    Matcher mat = pat.matcher(vehicleNo);
-                    if (mat.find()){
-                        entryTime = LocalTime.now();
-                        newVehicle = new Car(vehicleNo,entryTime);
-                        if(vehicleDao.vehicleEntry(newVehicle))
-                            System.out.println("Vehicle entry successful. Parking spot :PS"+newVehicle.getSlotNo());
-                    }
-                    else {
-                        System.out.println("Invalid Vehicle Number; enter again!");
-                    }
-                    break;
-                case 2: // Bike
-                    System.out.println("Enter the Vehicle Registration no:");
-                    vehicleNo = sc.nextLine();
-                    mat = pat.matcher(vehicleNo);
-                    if (mat.find()){
-                        entryTime = LocalTime.now();
-                        newVehicle = new Bike(vehicleNo,entryTime);
-                        vehicleDao.vehicleEntry(newVehicle);
-                    }
-                    else {
-                        System.out.println("Invalid Vehicle Number; enter again!");
-                    }
-                    break;
-                case 3: //Cycle
-                    System.out.println("Please park bicycles in the eco-parking area.");
-                    break;
-                case 4: //ExitParking
-                    System.out.println("Enter the vehicle registration number: ");
-                    vehicleNo = sc.nextLine();
-                    mat = pat.matcher(vehicleNo);
-                    if (mat.find()){
-                        exitTime = LocalTime.now();
+            try {
+                switch (ch) {
+                    case 1: //Car
+                        System.out.println("Enter the Car Registration no:");
+                        vehicleNo = sc.nextLine();
+                        isValidVehicleNo(vehicleNo);
+                        newVehicle = new Car(vehicleNo,LocalTime.now());
+                        if (vehicleDao.vehicleEntry(newVehicle))
+                            System.out.println("Vehicle entry successful. Parking spot :PS" + newVehicle.getSlotNo());
+                        break;
+                    case 2: // Bike
+                        System.out.println("Enter the Bike Registration no:");
+                        vehicleNo = sc.nextLine();
+                        isValidVehicleNo(vehicleNo);
+                        newVehicle = new Bike(vehicleNo, LocalTime.now());
+                        if (vehicleDao.vehicleEntry(newVehicle))
+                            System.out.println("Vehicle entry successful. Parking spot :PS" + newVehicle.getSlotNo());
+                        break;
+                    case 3: //Cycle
+                        System.out.println("Enter the Cycle Registration no:");
+                        vehicleNo = sc.nextLine();
+                        isValidVehicleNo(vehicleNo);
+                        newVehicle = new Cycle(vehicleNo, LocalTime.now());
+                        if (vehicleDao.vehicleEntry(newVehicle))
+                            System.out.println("Vehicle entry successful. Parking spot :PS" + newVehicle.getSlotNo());
+                        break;
+                    case 4: //ExitParking
+                        System.out.println("Enter the vehicle registration number: ");
+                        vehicleNo = sc.nextLine();
+                        isValidVehicleNo(vehicleNo);
                         System.out.print("Visit Again. Parking Charges INR:");
-                        vehicleDao.vehicleExit(vehicleNo, exitTime);
-                    }
-                    else {
-                        System.out.println("Invalid Vehicle Number.");
-                    }
-                    break;
-                case 9: break; //Exit
-                default:
-                    System.out.println("Invalid Entry. Please try again!");
+                        vehicleDao.vehicleExit(vehicleNo, LocalTime.now());
+                        break;
+                    case 9:
+                        break; //Exit
+                    default:
+                        System.out.println("Invalid Entry. Please try again!");
+                }
+            }catch (IncorrectVehicleNoFormat | NotImplemented | ParkingFull e){
+                System.out.println(e.getMessage());
             }
-        }while (ch!=9);
-
+        } while (ch != 9);
         System.out.println("Exiting ABC Parking Lot...");
     }
+
+    public static void isValidVehicleNo(String vehNo) throws IncorrectVehicleNoFormat{
+        //Vehicle registration number format
+        Pattern pat = Pattern.compile("^[A-Z]{2}-?\\d{2}-?[A-Z]{2}-?\\d{4}$", Pattern.CASE_INSENSITIVE);
+        Matcher mat = pat.matcher(vehNo);
+        if(!mat.matches())
+            throw new IncorrectVehicleNoFormat("Enter correct vehicle number (AA-00-AA-0000); enter again!");
+    }
+
 }
