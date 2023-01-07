@@ -1,10 +1,17 @@
 package Week2.Lab_bankManagementTool.beans;
 
 public class Employee {
-    String name;
-    int code;
-    int phNum;
+private String name, empCode;
+private long phoneNo;
+    //constructor
+    public Employee(String name, String empCode, long phoneNo) {
+        this.name = name;
+        this.empCode = empCode;
+        this.phoneNo = phoneNo;
+    }
 
+
+    //getters & setters
     public String getName() {
         return name;
     }
@@ -13,19 +20,28 @@ public class Employee {
         this.name = name;
     }
 
-    public int getCode() {
-        return code;
+    public String getEmpCode() {
+        return empCode;
     }
 
-    public void setCode(int code) {
-        this.code = code;
+    public void setEmpCode(String empCode) {
+        this.empCode = empCode;
     }
 
-    public int getPhNum() {
-        return phNum;
+    public long getPhoneNo() {
+        return phoneNo;
     }
 
-    public void setPhNum(int phNum) {
-        this.phNum = phNum;
+    public void setPhoneNo(long phoneNo) {
+        this.phoneNo = phoneNo;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "Name='" + name + '\'' +
+                ", EmpCode='" + empCode + '\'' +
+                ", PhoneNo=" + phoneNo +
+                '}';
     }
 }

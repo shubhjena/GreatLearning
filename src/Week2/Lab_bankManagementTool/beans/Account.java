@@ -1,27 +1,35 @@
 package Week2.Lab_bankManagementTool.beans;
 
-public class Account {
-    private double balance;
+public abstract class Account {
+    private double balance=0;
     private long accNum;
-    void deposit(double amount){
-        this.balance+=amount;
-        System.out.println("\nDeposit Successful");
+    static int accCount=0;
+    //constructors
+
+    public Account() {
+        this.accNum = accCount++;
     }
 
-    void withdraw(double amount){
-        this.balance -=amount;
-        System.out.println("\nWithdraw Successful");
+    //getters & setters
+    public double getBalance() {
+        return balance;
     }
-
-    void viewBalance(){
-        System.out.println("Your current balance is: "+ balance);
+    public void setBalance(double balance) {
+        this.balance += balance;
     }
-
     public long getAccNum() {
         return accNum;
     }
-
     public void setAccNum(long accNum) {
         this.accNum = accNum;
+    }
+
+    public abstract double getInterest();
+    @Override
+    public String toString() {
+        return "Account{" +
+                "Balance=" + balance +
+                ", Account No=" + accNum +
+                '}';
     }
 }

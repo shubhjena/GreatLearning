@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Week 3 Lab">
-      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/beans/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/_ParkingManagement/dao/VehicleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/AccountNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/BankEmployeeUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/CustomerUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/SavingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/SavingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/HomeScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,17 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last.edited.regexp": "gj18cq8476",
-    "last_opened_file_path": "D:/IDEA Projects/Practice",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/Practice&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Week2.Lab_bankManagementTool.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEA Projects\GL_Weekly_Assignments\src" />
     </key>
