@@ -4,7 +4,7 @@ import Week2.Lab_bankManagementTool.beans.Customer;
 
 public class CustomerDaoImpl implements CustomerDao {
 
-    private Customer[] customer = new Customer[10];
+    private final Customer[] customer = new Customer[10];
     private static int  count=0;
 
     public CustomerDaoImpl() {
@@ -12,12 +12,12 @@ public class CustomerDaoImpl implements CustomerDao {
     }
 
     @Override
-    public boolean createAccount(Customer customer) {
+    public long createAccount(Customer customer) {
         if (count==10)
             throw new ArrayIndexOutOfBoundsException();
         this.customer[count] = customer;
         count++;
-        return true;
+        return customer.getAccount().getAccNum();
     }
 
     @Override
@@ -35,7 +35,7 @@ public class CustomerDaoImpl implements CustomerDao {
     public boolean withdrawMoney(long accNo, double amount) {
         for (Customer c: customer) {
             if(accNo == c.getAccount().getAccNum()) {
-                c.getAccount().setBalance(amount*(-1));
+                c.getAccount().setBalance((amount*(-1)));
                 return true;
             }
         }
@@ -55,7 +55,7 @@ public class CustomerDaoImpl implements CustomerDao {
     public void viewAccountInfo(long accNo) {
         for (Customer c: customer) {
             if(accNo == c.getAccount().getAccNum())
-                System.out.println(c.getAccount().toString());
+                System.out.println(c);
         }
     }
 }
