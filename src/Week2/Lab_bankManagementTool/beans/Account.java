@@ -4,10 +4,10 @@ public abstract class Account {
     private double balance=0;
     private long accNum;
     static int accCount=0;
-    //constructors
 
+    //constructors
     public Account() {
-        this.accNum = accCount++;
+        this.accNum = ++accCount;
     }
 
     //getters & setters

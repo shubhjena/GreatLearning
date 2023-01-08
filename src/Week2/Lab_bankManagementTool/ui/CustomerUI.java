@@ -52,7 +52,7 @@ public class CustomerUI {
                         break;
                     case 2: //Deposit Cash
                         System.out.print("Enter your account number:");
-                        accountNo = sc.nextLong();
+                        accountNo = Long.parseLong(sc.nextLine());
                         System.out.print("Enter amount to deposit:");
                         amount = Double.parseDouble(sc.nextLine());
                         if (customerDao.depositMoney(accountNo, amount))
@@ -60,10 +60,10 @@ public class CustomerUI {
                         break;
                     case 3: //Withdraw Cash
                         System.out.print("Enter your account number:");
-                        accountNo = sc.nextLong();
+                        accountNo = Long.parseLong(sc.nextLine());
                         System.out.print("Enter amount to withdraw:");
                         amount = Double.parseDouble(sc.nextLine());
-                        if (customerDao.depositMoney(accountNo, amount))
+                        if (customerDao.withdrawMoney(accountNo, amount))
                             System.out.println("Cash withdrawn successfully.");
                         break;
                     case 4: //Balance Enquiry

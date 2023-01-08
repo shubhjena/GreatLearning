@@ -6,10 +6,6 @@ public class EmployeeDaoImpl implements EmployeeDao {
     private Employee[] employee = new Employee[3];
     static private int count;
 
-    public EmployeeDaoImpl() {
-        super();
-    }
-
     @Override
     public boolean addNewEmployee(Employee employee) {
         if (count==3)
