@@ -1,8 +1,8 @@
 package Week2.Lab_bankManagementTool.beans;
 
 public class Customer {
-    private Account account;
-    private String firstName, lastName, email;
+    private final Account account;
+    private final String firstName, lastName, email;
 
     //constructor
     public Customer(Account account, String firstName, String lastName, String email) {
