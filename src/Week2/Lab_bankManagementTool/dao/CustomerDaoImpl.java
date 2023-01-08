@@ -35,7 +35,7 @@ public class CustomerDaoImpl implements CustomerDao {
     public boolean withdrawMoney(long accNo, double amount) {
         for (Customer c: customer) {
             if(accNo == c.getAccount().getAccNum()) {
-                c.getAccount().setBalance((amount*(-1)));
+                c.getAccount().setBalance(amount*(-1));
                 return true;
             }
         }
