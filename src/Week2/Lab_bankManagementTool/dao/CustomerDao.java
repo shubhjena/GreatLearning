@@ -7,6 +7,6 @@ public interface CustomerDao {
     boolean depositMoney(long accNo, double amount);
     boolean withdrawMoney(long accNo, double amount);
     double checkBalance(long accNo);
-    void viewAccountInfo(long accNo);
+    boolean viewAccountInfo(long accNo);
 
 }

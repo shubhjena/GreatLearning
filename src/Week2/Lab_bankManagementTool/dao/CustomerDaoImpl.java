@@ -52,10 +52,13 @@ public class CustomerDaoImpl implements CustomerDao {
     }
 
     @Override
-    public void viewAccountInfo(long accNo) {
+    public boolean viewAccountInfo(long accNo) {
         for (Customer c: customer) {
-            if(accNo == c.getAccount().getAccNum())
+            if(accNo == c.getAccount().getAccNum()) {
                 System.out.println(c);
+                return true;
+            }
         }
+        throw new AccountNotFound("Account does not exist!");
     }
 }

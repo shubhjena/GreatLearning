@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Week 3 Lab">
-      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/beans/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/EmployeeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/dao/EmployeeDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/CustomerUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/CustomerUI.java" afterDir="false" />
     </list>
@@ -205,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673122903339</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Week 3 Lab">
+      <created>1673184235709</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673184235709</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Week 3 Lab">
+      <created>1673184322124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673184322124</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

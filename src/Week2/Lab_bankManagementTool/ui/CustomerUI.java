@@ -48,23 +48,27 @@ public class CustomerUI {
                         System.out.print("Enter emailId:");
                         email = sc.nextLine();
                         System.out.println("Account Created Successfully. Your account number is "
-                                +customerDao.createAccount(new Customer(account, firstName, lastName, email)));
+                                + customerDao.createAccount(new Customer(account, firstName, lastName, email)));
                         break;
                     case 2: //Deposit Cash
                         System.out.print("Enter your account number:");
                         accountNo = Long.parseLong(sc.nextLine());
                         System.out.print("Enter amount to deposit:");
                         amount = Double.parseDouble(sc.nextLine());
-                        if (customerDao.depositMoney(accountNo, amount))
+                        if (customerDao.depositMoney(accountNo, amount)){
                             System.out.println("Cash deposited successfully.");
+                            System.out.println("Your Account Balance is INR " + customerDao.checkBalance(accountNo));
+                        }
                         break;
                     case 3: //Withdraw Cash
                         System.out.print("Enter your account number:");
                         accountNo = Long.parseLong(sc.nextLine());
                         System.out.print("Enter amount to withdraw:");
                         amount = Double.parseDouble(sc.nextLine());
-                        if (customerDao.withdrawMoney(accountNo, amount))
+                        if (customerDao.withdrawMoney(accountNo, amount)) {
                             System.out.println("Cash withdrawn successfully.");
+                            System.out.println("Your Account Balance is INR " + customerDao.checkBalance(accountNo));
+                        }
                         break;
                     case 4: //Balance Enquiry
                         System.out.print("Enter your account number:");

@@ -16,12 +16,13 @@ public class EmployeeDaoImpl implements EmployeeDao {
     }
 
     @Override
-    public void displayEmployeeInfo(String empCode) {
-        for (int i = 0; i<count; i++) {
-            if (empCode.equalsIgnoreCase(employee[i].getEmpCode()))
-                System.out.println(employee[i].toString());
-            else
-                throw new NullPointerException();
+    public boolean displayEmployeeInfo(String empCode) {
+        for (Employee emp: employee) {
+            if (empCode.equalsIgnoreCase(emp.getEmpCode())) {
+                System.out.println(emp);
+                return true;
+            }
         }
+        return false;
     }
 }
