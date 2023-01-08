@@ -20,16 +20,11 @@ public abstract class Account {
     public long getAccNum() {
         return accNum;
     }
-    public void setAccNum(long accNum) {
-        this.accNum = accNum;
-    }
 
     public abstract double getInterest();
     @Override
     public String toString() {
-        return "Account{" +
-                "Balance=" + balance +
-                ", Account No=" + accNum +
-                '}';
+        return "Balance=" + balance +
+                ",\nAccount No=" + accNum;
     }
 }
