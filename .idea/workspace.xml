@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Recursion Practice Questions">
-      <change afterPath="$PROJECT_DIR$/src/Week5/HCF.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Tower of Hanoi using recursion.">
+      <change afterPath="$PROJECT_DIR$/src/Week5/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week2/Lab_bankManagementTool/ui/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week3/Lab_ParkingManagement/beans/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week3/Lab_ParkingManagement/beans/ParkingLot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/Practice&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last.edited.regexp": "gj18cq8476",
+    "last_opened_file_path": "D:/IDEA Projects/Practice",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
@@ -56,6 +65,32 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="HCF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5.HCF" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week2.Lab_bankManagementTool.ui.HomeScreen" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week2.Lab_bankManagementTool.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week1.W1_OOPS_Shapes.ui.Main" />
       <module name="GreatLearning" />
@@ -71,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HCF" />
+        <item itemvalue="Application.HomeScreen" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -245,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673410095465</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Recursion Practice Questions">
+      <created>1673410947509</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673410947509</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +311,7 @@
     <MESSAGE value="Week 3 Lab" />
     <MESSAGE value="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java" />
     <MESSAGE value="Recursion Practice Questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion Practice Questions" />
+    <MESSAGE value="Tower of Hanoi using recursion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tower of Hanoi using recursion." />
   </component>
 </project>

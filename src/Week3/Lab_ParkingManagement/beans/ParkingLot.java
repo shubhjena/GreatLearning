@@ -10,14 +10,19 @@ public class ParkingLot {
     private int count=0;
     Vehicle[] vehicle = new Vehicle[capacity];
     public boolean parkVehicle(Vehicle v) {
-       for (int i = 0; i < count;i++) {
-           if (vehicle[i] == null) {
-                v.setSlotNo(i);
-                vehicle[i] = v;
+       //checking if any previously assigned space is vacated
+       for (int slot = 0; slot < count;slot++) {
+           if (vehicle[slot] == null) {
+                v.setSlotNo(slot);
+                vehicle[slot] = v;
                 return true;
            }
        }
+       //to check if paring is full
        if (count==capacity) throw new ParkingFull("No parking space available!");
+       /*if none of the previously assigned space are empty and
+       capacity is also not full then
+       allot a new space*/
        else{
            v.setSlotNo(count);
            vehicle[count] = v;
@@ -26,11 +31,11 @@ public class ParkingLot {
        }
     }
     public void exitVehicle(String vehNo, LocalTime exitTime) {
-        for (int i = 0; i < count; i++) {
-            if (vehicle[i].vehicleNo.equals(vehNo)) {
-                vehicle[i].exitTime = exitTime;
-                System.out.println(computeCost(vehicle[i]));
-                vehicle[i] = null;
+        for (int slot = 0; slot < count; slot++) {
+            if (vehicle[slot].vehicleNo.equals(vehNo)) {
+                vehicle[slot].exitTime = exitTime;
+                System.out.println(computeCost(vehicle[slot]));
+                vehicle[slot] = null;
             }
         }
     }

@@ -18,7 +18,7 @@ public class HomeScreen {
                     Please Select an option:
                     1. Bank Employee
                     2. Customer
-                    9. Exit
+                    9. Exit                        
                                    
                     Your Choice: """);
             ch = Integer.parseInt(sc.nextLine());
