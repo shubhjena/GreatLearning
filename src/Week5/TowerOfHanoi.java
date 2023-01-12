@@ -11,18 +11,14 @@ public class TowerOfHanoi {
         char source='A',destination='B',assistant='C';
         System.out.print("Enter the number of rings:");
         int num = sc.nextInt();
-        System.out.print("Follow the following steps:\nMove a ring:");
+        System.out.print("Move the disks in following order:");
         towerOfHanoi(source,destination,assistant,num);
     }
-    //tower of hanoi solving step generator
+    //tower of hanoi - step generator
     public static void towerOfHanoi(char source, char destination, char assistant, int numberOfRings){
-
-        if(numberOfRings ==1){
-            System.out.printf("\n%d. From tower %c to tower %c",++step,source,destination);
-        }
-        else {
+        if(numberOfRings !=0){
             towerOfHanoi(source,assistant,destination,numberOfRings-1);
-            towerOfHanoi(source,destination,assistant,1);
+            System.out.printf("\nStep %d: Disk %d from tower %c to tower %c",++step,numberOfRings,source,destination);
             towerOfHanoi(assistant,destination,source,numberOfRings-1);
         }
     }
