@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="ReverseNumber">
-      <change afterPath="$PROJECT_DIR$/src/Week5/DigitSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="DigitSum">
+      <change afterPath="$PROJECT_DIR$/src/Week5/StepClimber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673977552077</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="DigitSum">
+      <created>1673978185705</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673978185705</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +353,7 @@
     <MESSAGE value="Tower of Hanoi using recursion." />
     <MESSAGE value="Fibonacci Sequence" />
     <MESSAGE value="ReverseNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReverseNumber" />
+    <MESSAGE value="DigitSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="DigitSum" />
   </component>
 </project>
