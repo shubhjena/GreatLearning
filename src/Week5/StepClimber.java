@@ -3,20 +3,19 @@ package Week5;
 import java.util.Scanner;
 
 public class StepClimber {
-    static int count=0;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numSteps = sc.nextInt();
-        stepClimber(numSteps);
-        System.out.println(count);
+        System.out.println(stepClimber(numSteps));
     }
-    public static void stepClimber(int num){
+    public static int stepClimber(int num){
+        int count =0;
         if (num<=0) {
-            count++;
-            return;
+            return 1;
         }
-        stepClimber(num-1);
+        count+= stepClimber(num-1);
         if (num>=2)
-            stepClimber(num-2);
+            count+= stepClimber(num-2);
+        return count;
     }
 }
