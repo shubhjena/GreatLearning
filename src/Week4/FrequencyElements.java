@@ -1,4 +1,7 @@
 package Week4;
+/*
+Given an Array which may contain duplicates, print all elements and their frequencies.
+ */
 
 import java.util.Arrays;
 

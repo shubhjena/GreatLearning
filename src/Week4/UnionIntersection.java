@@ -1,7 +1,9 @@
 package Week4;
 
 import java.util.Arrays;
-
+/*
+Given two sorted arrays, find their union and intersection.
+ */
 public class UnionIntersection {
     public static void main(String[] args) {
         int[] arr1 = {1, 3, 4, 5, 7};

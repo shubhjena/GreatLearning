@@ -1,5 +1,7 @@
 package Week4;
-
+/*
+Problem Statement:  Given an array / string, the task is to reverse the array/ string
+ */
 public class ReverseArray {
     public static void main(String[] args) {
         int[] arr = {1,2,3};

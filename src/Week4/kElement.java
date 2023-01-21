@@ -1,4 +1,8 @@
 package Week4;
+/*
+Problem Statement: Given an array and a number K where K is smaller than the size of the array.
+Find the Kth smallest element in the given array. Given that all array elements are distinct.
+ */
 
 import java.util.Arrays;
 
