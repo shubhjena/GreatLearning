@@ -7,9 +7,10 @@ public class SearchPosition {
         System.out.println(searchPos(arr,target));
     }
     static int searchPos(int[] arr, int target){
-        for (int i=0;i<arr.length; i++)
+        int size=arr.length;
+        for (int i=0;i<size; i++)
             if (arr[i]>=target)
                 return i;
-        return -1;
+        return size;
     }
 }
