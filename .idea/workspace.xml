@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="NegativeSeparate">
-      <change afterPath="$PROJECT_DIR$/src/Week4/FrequencyElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="FrequencyElements">
+      <change afterPath="$PROJECT_DIR$/src/Week4/SearchPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674058163979</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="FrequencyElements">
+      <created>1674273891800</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674273891800</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +423,7 @@
     <MESSAGE value="Reverse Array" />
     <MESSAGE value="UnionIntersection" />
     <MESSAGE value="NegativeSeparate" />
-    <option name="LAST_COMMIT_MESSAGE" value="NegativeSeparate" />
+    <MESSAGE value="FrequencyElements" />
+    <option name="LAST_COMMIT_MESSAGE" value="FrequencyElements" />
   </component>
 </project>
