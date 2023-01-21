@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="SumTargetPair">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="NegativeSort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week4/NegativeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4/NegativeSort.java" afterDir="false" />
     </list>
@@ -415,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674283921593</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="NegativeSort">
+      <created>1674313005376</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1674313005376</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,6 +455,7 @@
     <MESSAGE value="FrequencyElements" />
     <MESSAGE value="SearchPosition" />
     <MESSAGE value="SumTargetPair" />
-    <option name="LAST_COMMIT_MESSAGE" value="SumTargetPair" />
+    <MESSAGE value="NegativeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="NegativeSort" />
   </component>
 </project>
