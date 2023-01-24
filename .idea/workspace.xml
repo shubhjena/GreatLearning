@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="LongestConsecutiveSequence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week6/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week6/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5/StepClimber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5/StepClimber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="Week2.Lab_bankManagementTool" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week5.Fibonacci" />
       <module name="GreatLearning" />
@@ -436,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674410993825</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="LongestConsecutiveSequence">
+      <created>1674413447751</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1674413447751</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
