@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="PalindromePartition">
-      <change afterPath="$PROJECT_DIR$/src/Week8/BubbleSort.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Selection Sort">
+      <change afterPath="$PROJECT_DIR$/src/Week8/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,7 +464,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676389456371</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="PalindromePartition">
+      <created>1676389740010</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1676389740010</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Bubble Sort">
+      <created>1676390117887</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1676390117887</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Selection Sort">
+      <created>1676390138185</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1676390138185</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,6 +521,8 @@
     <MESSAGE value="NegativeSort" />
     <MESSAGE value="LongestConsecutiveSequence" />
     <MESSAGE value="PalindromePartition" />
-    <option name="LAST_COMMIT_MESSAGE" value="PalindromePartition" />
+    <MESSAGE value="Bubble Sort" />
+    <MESSAGE value="Selection Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selection Sort" />
   </component>
 </project>
