@@ -9,7 +9,7 @@ import java.util.Deque;
 
 class PalindromePartition
 {
-    public static void main( String args[] )
+    public static void main( String[] args )
     {
         String str = "nitin";
         all_palindromic_partitions(str);
@@ -19,7 +19,7 @@ class PalindromePartition
     {
         int n = str.length();
         ArrayList<ArrayList<String>> all_part = new ArrayList<>();
-        Deque<String> cur_par = new LinkedList<String>();
+        Deque<String> cur_par = new LinkedList<>();
 
         all_palindromic_partitions_util( all_part, cur_par, 0, n, str);
 
