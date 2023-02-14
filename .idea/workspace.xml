@@ -84,7 +84,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SortTest">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week5.Fibonacci" />
       <module name="GreatLearning" />

@@ -1,4 +1,4 @@
-package Week8;
+package Week8_Searching_and_Sorting.Sorting_Techniques;
 
 import org.junit.jupiter.api.Test;
 
