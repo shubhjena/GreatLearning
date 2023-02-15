@@ -13,9 +13,10 @@ public class Main {
             arr[i] = Integer.parseInt(input[i]);
         }
         System.out.println("Array before Sorting:\n"+Arrays.toString(arr));
-        new BubbleSort().sort(arr);
-        new SelectionSort().sort(arr);
-        new InsertionSort().sort(arr);
+        new BubbleSort().sort(arr,0, arr.length-1);
+        new SelectionSort().sort(arr,0, arr.length-1);
+        new InsertionSort().sort(arr,0, arr.length-1);
+        new MergeSort().sort(arr,0, arr.length-1);
         System.out.println("Array after Sorting:\n"+Arrays.toString(arr));
     }
 }

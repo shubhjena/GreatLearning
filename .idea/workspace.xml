@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Insertion Sort">
-      <change afterPath="$PROJECT_DIR$/src/Week8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week8/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week8/SortTest.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Add Sort Testing">
+      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreatLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GreatLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,29 +44,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last.edited.regexp": "gj18cq8476",
-    "last_opened_file_path": "D:/IDEA Projects/Practice",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/Practice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
@@ -78,6 +78,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Week8_Searching_and_Sorting.Sorting_Techniques" />
       <recent name="Week2.Lab_bankManagementTool" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -115,12 +116,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8.*" />
+          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting_Techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Week8" />
-      <option name="MAIN_CLASS_NAME" value="Week8.SortTest" />
+      <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
+      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques.SortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,12 +131,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8.*" />
+          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting_Techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Week8" />
-      <option name="MAIN_CLASS_NAME" value="Week8.SortTest" />
+      <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
+      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques.SortTest" />
       <option name="METHOD_NAME" value="negativeAndPositiveNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -146,12 +147,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8.*" />
+          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting_Techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Week8" />
-      <option name="MAIN_CLASS_NAME" value="Week8.SortTest" />
+      <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
+      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques.SortTest" />
       <option name="METHOD_NAME" value="voidArray(Week8.BubbleSort)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -176,20 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Changed Directory">
-      <created>1671709492643</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1671709492643</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Changed Directory">
-      <created>1671709618349</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671709618349</updated>
     </task>
     <task id="LOCAL-00004" summary="Week 2 Assignment">
       <created>1672248663366</created>
@@ -520,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676398224936</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Add Sort Testing">
+      <created>1676408027466</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1676408027466</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Add Sort Testing">
+      <created>1676408397281</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1676408397281</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,6 +560,7 @@
     <MESSAGE value="Bubble Sort" />
     <MESSAGE value="Selection Sort" />
     <MESSAGE value="Insertion Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insertion Sort" />
+    <MESSAGE value="Add Sort Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Sort Testing" />
   </component>
 </project>
