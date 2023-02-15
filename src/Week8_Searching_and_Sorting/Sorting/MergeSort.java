@@ -6,9 +6,9 @@ public class MergeSort implements  Sort{
     public int[] sort(int[] arr, int start, int end) {
         if (start<end) {
             int mid  = start + (end-start)/2;
-            sort(arr,start,mid);
+            sort(arr,start,mid);            //dividing the array to two parts recursively till only one element is left
             sort(arr,mid+1,end);
-            merge(arr,start,mid,end);
+            merge(arr,start,mid,end);       //merging the divided arrays in sorted order.
         }
         return arr;
     }
@@ -18,9 +18,9 @@ public class MergeSort implements  Sort{
         int size1 = mid-start+1;
         int size2 = end-mid;
         int[] leftArr = new int[size1], rightArr = new int[size2];
-        System.arraycopy(arr, start, leftArr, 0, size1);
-        System.arraycopy(arr,mid+1, rightArr,0,size2);
-        while (leftPtr<size1 && rightPtr<size2){
+        System.arraycopy(arr, start, leftArr, 0, size1); //left array
+        System.arraycopy(arr,mid+1, rightArr,0,size2); //right array
+        while (leftPtr<size1 && rightPtr<size2){ //merging both arrays in sorted order
             if (leftArr[leftPtr]>rightArr[rightPtr]){
                 arr[arrPtr] = rightArr[rightPtr];
                 rightPtr++;

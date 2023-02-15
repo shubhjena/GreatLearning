@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Add QuickSort technique to sort package.">
-      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="test: add QuickSort object to  SortTest.java">
+      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortingNotes.doc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +43,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/Practice&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last.edited.regexp": "gj18cq8476",
+    "last_opened_file_path": "D:/IDEA Projects/Practice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
@@ -71,6 +80,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week8_Searching_and_Sorting\Sorting" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Week8_Searching_and_Sorting.Sorting_Techniques" />
@@ -172,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Week 2 Lab">
-      <created>1672248860796</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1672248860796</updated>
     </task>
     <task id="LOCAL-00008" summary="Week 2 Lab">
       <created>1672249615090</created>
@@ -516,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676476372612</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="test: add QuickSort object to  SortTest.java">
+      <created>1676476547538</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1676476547538</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Week 2 Lab" />
     <MESSAGE value="Week 3 Lab" />
     <MESSAGE value="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java" />
     <MESSAGE value="Recursion Practice Questions" />
@@ -557,7 +568,8 @@
     <MESSAGE value="MergeSort" />
     <MESSAGE value="add Search package" />
     <MESSAGE value="Add QuickSort technique to sort package." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add QuickSort technique to sort package." />
+    <MESSAGE value="test: add QuickSort object to  SortTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: add QuickSort object to  SortTest.java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GreatLearning$SortTest.ic" NAME="SortTest Coverage Results" MODIFIED="1676474736521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

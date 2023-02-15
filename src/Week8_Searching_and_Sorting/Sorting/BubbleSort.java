@@ -4,7 +4,7 @@ public class BubbleSort implements Sort{
     @Override
     public int[] sort(int[] arr,int start,int end) {
         for (int i = start+1; i <= end; i++) {
-            for (int j = 0; j <= end-i; j++) {
+            for (int j = 0; j <= end-i; j++) { //compares adjacent pairs for smaller number
                 if(arr[j]>arr[j+1])
                     swap(arr,j,j+1);
             }
