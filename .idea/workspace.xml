@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="MergeSort">
-      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/Main.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Search package">
+      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +80,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SortTest">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week5.Fibonacci" />
       <module name="GreatLearning" />
@@ -180,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Week 2 Lab">
-      <created>1672248724764</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1672248724764</updated>
     </task>
     <task id="LOCAL-00006" summary="Week 2 Assignment">
       <created>1672248831314</created>
@@ -524,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676446756435</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add Search package">
+      <created>1676451753586</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676451753586</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +532,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed Directory" />
     <MESSAGE value="Week 2 Assignment" />
     <MESSAGE value="Week 2 Lab" />
     <MESSAGE value="Week 3 Lab" />
@@ -565,32 +556,12 @@
     <MESSAGE value="Insertion Sort" />
     <MESSAGE value="Add Sort Testing" />
     <MESSAGE value="MergeSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeSort" />
+    <MESSAGE value="add Search package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Search package" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GreatLearning$SortTest.ic" NAME="SortTest Coverage Results" MODIFIED="1676474736521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Week8_Searching_and_Sorting.Sorting.*</FILTER>
+    </SUITE>
   </component>
 </project>
