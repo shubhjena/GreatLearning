@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Search package">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Add QuickSort technique to sort package.">
       <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" afterDir="false" />
@@ -172,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Week 2 Assignment">
-      <created>1672248831314</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1672248831314</updated>
     </task>
     <task id="LOCAL-00007" summary="Week 2 Lab">
       <created>1672248860796</created>
@@ -516,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676451753586</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Add QuickSort technique to sort package.">
+      <created>1676476372612</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1676476372612</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +532,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Week 2 Assignment" />
     <MESSAGE value="Week 2 Lab" />
     <MESSAGE value="Week 3 Lab" />
     <MESSAGE value="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java" />
@@ -557,7 +556,8 @@
     <MESSAGE value="Add Sort Testing" />
     <MESSAGE value="MergeSort" />
     <MESSAGE value="add Search package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Search package" />
+    <MESSAGE value="Add QuickSort technique to sort package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add QuickSort technique to sort package." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GreatLearning$SortTest.ic" NAME="SortTest Coverage Results" MODIFIED="1676474736521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

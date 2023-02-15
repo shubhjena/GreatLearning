@@ -8,7 +8,8 @@ class SortTest {
 //    Sort obj = new BubbleSort();
 //    Sort obj = new InsertionSort();
 //    Sort obj = new SelectionSort();
-    Sort obj = new MergeSort();
+//    Sort obj = new MergeSort();
+    Sort obj = new QuickSort();
     @Test
     void nullArray() {
         assertArrayEquals(new int[] {},obj.sort(new int[]{},0,0));
