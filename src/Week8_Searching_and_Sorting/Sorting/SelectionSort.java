@@ -1,4 +1,4 @@
-package Week8_Searching_and_Sorting.Sorting_Techniques;
+package Week8_Searching_and_Sorting.Sorting;
 
 
 public class SelectionSort implements Sort{

@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Add Sort Testing">
-      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/MergeSort.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="MergeSort">
+      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting_Techniques/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +88,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest">
+  <component name="RunManager">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week5.Fibonacci" />
       <module name="GreatLearning" />
@@ -116,12 +119,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting_Techniques.*" />
+          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
-      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques.SortTest" />
+      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting.SortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,12 +134,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting_Techniques.*" />
+          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
-      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques.SortTest" />
+      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting.SortTest" />
       <option name="METHOD_NAME" value="negativeAndPositiveNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -147,12 +150,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting_Techniques.*" />
+          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
-      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques.SortTest" />
+      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting.SortTest" />
       <option name="METHOD_NAME" value="voidArray(Week8.BubbleSort)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -177,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Week 2 Assignment">
-      <created>1672248663366</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1672248663366</updated>
     </task>
     <task id="LOCAL-00005" summary="Week 2 Lab">
       <created>1672248724764</created>
@@ -521,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676408397281</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="MergeSort">
+      <created>1676446756435</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1676446756435</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,6 +564,33 @@
     <MESSAGE value="Selection Sort" />
     <MESSAGE value="Insertion Sort" />
     <MESSAGE value="Add Sort Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Sort Testing" />
+    <MESSAGE value="MergeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeSort" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
