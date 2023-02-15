@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="test: add QuickSort object to  SortTest.java">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Add comments to all sort techniques">
       <change afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortingNotes.doc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Week 2 Lab">
-      <created>1672249615090</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1672249615090</updated>
     </task>
     <task id="LOCAL-00009" summary="Week 2 Lab">
       <created>1672250364893</created>
@@ -528,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676476547538</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add comments to all sort techniques">
+      <created>1676488040842</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676488040842</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Week 3 Lab" />
     <MESSAGE value="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java" />
     <MESSAGE value="Recursion Practice Questions" />
     <MESSAGE value="Tower of Hanoi using recursion." />
@@ -569,7 +563,8 @@
     <MESSAGE value="add Search package" />
     <MESSAGE value="Add QuickSort technique to sort package." />
     <MESSAGE value="test: add QuickSort object to  SortTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: add QuickSort object to  SortTest.java" />
+    <MESSAGE value="Add comments to all sort techniques" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comments to all sort techniques" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GreatLearning$SortTest.ic" NAME="SortTest Coverage Results" MODIFIED="1676474736521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
