@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Found at index: "+LinearSearch.search(arr,0,arr.length-1, element));
         Arrays.sort(arr);
         System.out.println("Found at index: "+BinarySearch.search(arr,0,arr.length-1, element)+" in sorted array.");
+        System.out.println("Found at index: "+BinarySearch.search2(arr,0,arr.length-1, element)+" in sorted array.");
     }
 }
 

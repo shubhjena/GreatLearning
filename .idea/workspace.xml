@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="Docs: add word file for lecture notes">
-      <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/WaveArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/WaveArrayII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/WaveArrayTest.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add week 9 WaveArrayII.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Searching/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,20 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Week 2 Lab">
-      <created>1672251764403</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1672251764403</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Week 2 Lab">
-      <created>1672252945134</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1672252945134</updated>
     </task>
     <task id="LOCAL-00012" summary="Week 3 Lab">
       <created>1672602518056</created>
@@ -531,7 +516,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676492272515</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="add week 9 WaveArray.java">
+      <created>1676754618238</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676754618238</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add week 9 WaveArrayII.java">
+      <created>1676754649967</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676754649967</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,8 +546,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Recursion Practice Questions" />
-    <MESSAGE value="Tower of Hanoi using recursion." />
     <MESSAGE value="Fibonacci Sequence" />
     <MESSAGE value="ReverseNumber" />
     <MESSAGE value="DigitSum" />
@@ -572,7 +569,9 @@
     <MESSAGE value="test: add QuickSort object to  SortTest.java" />
     <MESSAGE value="Add comments to all sort techniques" />
     <MESSAGE value="Docs: add word file for lecture notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docs: add word file for lecture notes" />
+    <MESSAGE value="add week 9 WaveArray.java" />
+    <MESSAGE value="add week 9 WaveArrayII.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add week 9 WaveArrayII.java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GreatLearning$SortTest.ic" NAME="SortTest Coverage Results" MODIFIED="1676474736521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
