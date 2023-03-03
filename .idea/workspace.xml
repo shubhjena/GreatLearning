@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add KMPAlgorithm">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Roman to Integer.">
+      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/IsAnagram.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RomanToInt.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -189,20 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Week 3 Lab">
-      <created>1673122721566</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1673122721566</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Week 3 Lab">
-      <created>1673122903339</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1673122903339</updated>
     </task>
     <task id="LOCAL-00018" summary="Week 3 Lab">
       <created>1673184235709</created>
@@ -533,7 +518,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677855306973</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add ReverseWordsInString class">
+      <created>1677857026700</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1677857026700</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add Roman to Integer.">
+      <created>1677857090830</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1677857090830</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,8 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Reverse Array" />
-    <MESSAGE value="UnionIntersection" />
     <MESSAGE value="NegativeSeparate" />
     <MESSAGE value="FrequencyElements" />
     <MESSAGE value="SearchPosition" />
@@ -574,7 +571,9 @@
     <MESSAGE value="add TeamEqual Skill problem" />
     <MESSAGE value="add Week10 Package" />
     <MESSAGE value="add KMPAlgorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add KMPAlgorithm" />
+    <MESSAGE value="add ReverseWordsInString class" />
+    <MESSAGE value="add Roman to Integer." />
+    <option name="LAST_COMMIT_MESSAGE" value="add Roman to Integer." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
