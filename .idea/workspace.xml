@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add TeamEqual Skill problem">
-      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/StringMatching.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Week10 Package">
+      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/KMPAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Week 3 Lab">
-      <created>1672643797283</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1672643797283</updated>
     </task>
     <task id="LOCAL-00015" summary="Week 3 Lab">
       <created>1673099328805</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676916905005</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add Week10 Package">
+      <created>1677517803870</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1677517803870</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DigitSum" />
     <MESSAGE value="kElement" />
     <MESSAGE value="Reverse Array" />
     <MESSAGE value="UnionIntersection" />
@@ -572,7 +571,8 @@
     <MESSAGE value="add week 9 WaveArrayII.java" />
     <MESSAGE value="add BinarySearch iterative method." />
     <MESSAGE value="add TeamEqual Skill problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TeamEqual Skill problem" />
+    <MESSAGE value="add Week10 Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Week10 Package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
