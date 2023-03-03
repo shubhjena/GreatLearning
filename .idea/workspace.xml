@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Week10 Package">
-      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/KMPAlgorithm.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add KMPAlgorithm">
+      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/ReverseWordsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RomanToInt.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -40,34 +42,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IDEA Projects/Practice&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last.edited.regexp": "gj18cq8476",
+    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/LeetcodePractice/src/Strings/RomanToInt.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Week 3 Lab">
-      <created>1673099328805</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1673099328805</updated>
     </task>
     <task id="LOCAL-00016" summary="Week 3 Lab">
       <created>1673122721566</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677517803870</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add KMPAlgorithm">
+      <created>1677855306973</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1677855306973</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="kElement" />
     <MESSAGE value="Reverse Array" />
     <MESSAGE value="UnionIntersection" />
     <MESSAGE value="NegativeSeparate" />
@@ -572,7 +573,8 @@
     <MESSAGE value="add BinarySearch iterative method." />
     <MESSAGE value="add TeamEqual Skill problem" />
     <MESSAGE value="add Week10 Package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Week10 Package" />
+    <MESSAGE value="add KMPAlgorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add KMPAlgorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
