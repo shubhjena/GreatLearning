@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Is Anagram">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactor: rename Week6 to Week6_Arrays">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week6/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week6/RotateImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week6_Arrays/QueryMatrix.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,17 +92,17 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RotateImageTest.voidArray">
+  <component name="RunManager">
     <configuration name="RotateImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6.*" />
+          <option name="PATTERN" value="Week6_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Week6" />
-      <option name="MAIN_CLASS_NAME" value="Week6.RotateImageTest" />
+      <option name="MAIN_CLASS_NAME" value="Week6_Arrays.RotateImageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,12 +112,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6.*" />
+          <option name="PATTERN" value="Week6_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Week6" />
-      <option name="MAIN_CLASS_NAME" value="Week6.RotateImageTest" />
+      <option name="MAIN_CLASS_NAME" value="Week6_Arrays.RotateImageTest" />
       <option name="METHOD_NAME" value="Array3X3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -129,12 +128,12 @@
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6.*" />
+          <option name="PATTERN" value="Week6_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Week6" />
-      <option name="MAIN_CLASS_NAME" value="Week6.RotateImageTest" />
+      <option name="MAIN_CLASS_NAME" value="Week6_Arrays.RotateImageTest" />
       <option name="METHOD_NAME" value="voidArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -190,27 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Week 3 Lab">
-      <created>1673184322124</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1673184322124</updated>
-    </task>
-    <task id="LOCAL-00020" summary="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java">
-      <created>1673186912446</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673186912446</updated>
-    </task>
-    <task id="LOCAL-00021" summary="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java">
-      <created>1673192484906</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1673192484906</updated>
     </task>
     <task id="LOCAL-00022" summary="displayEmployeeInfo function fixed in EmployeeDaoImpl.&#10;&#10;viewAccountInfo throwing error fixed in CustomerDaoImpl.java">
       <created>1673192736434</created>
@@ -534,7 +512,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677858742534</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add Rotate Image to week 6 package">
+      <created>1677930122742</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930122743</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add Rotate Image test">
+      <created>1677930154555</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930154556</updated>
+    </task>
+    <task id="LOCAL-00070" summary="refactor: rename Week6 to Week6_Arrays">
+      <created>1677930250514</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930250514</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,9 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="FrequencyElements" />
-    <MESSAGE value="SearchPosition" />
-    <MESSAGE value="SumTargetPair" />
     <MESSAGE value="NegativeSort" />
     <MESSAGE value="LongestConsecutiveSequence" />
     <MESSAGE value="PalindromePartition" />
@@ -575,7 +571,10 @@
     <MESSAGE value="add ReverseWordsInString class" />
     <MESSAGE value="add Roman to Integer." />
     <MESSAGE value="add Is Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Is Anagram" />
+    <MESSAGE value="add Rotate Image to week 6 package" />
+    <MESSAGE value="add Rotate Image test" />
+    <MESSAGE value="refactor: rename Week6 to Week6_Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: rename Week6 to Week6_Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
