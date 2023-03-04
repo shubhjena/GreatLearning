@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Roman to Integer.">
-      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/IsAnagram.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Is Anagram">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week6/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week6/RotateImageTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -20,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,34 +42,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last.edited.regexp": "gj18cq8476",
-    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/LeetcodePractice/src/Strings/RomanToInt.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/LeetcodePractice/src/Strings/RomanToInt.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
@@ -87,22 +88,55 @@
       <recent name="Week2.Lab_bankManagementTool" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Week6" />
       <recent name="Week9_Searching_and_Sorting.DiscussionProblems" />
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RotateImageTest.voidArray">
+    <configuration name="RotateImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week8_Searching_and_Sorting.Sorting.*" />
+          <option name="PATTERN" value="Week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Week8_Searching_and_Sorting.Sorting_Techniques" />
-      <option name="MAIN_CLASS_NAME" value="Week8_Searching_and_Sorting.Sorting.SortTest" />
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.RotateImageTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateImageTest.Array3X3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.RotateImageTest" />
+      <option name="METHOD_NAME" value="Array3X3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateImageTest.voidArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week6" />
+      <option name="MAIN_CLASS_NAME" value="Week6.RotateImageTest" />
+      <option name="METHOD_NAME" value="voidArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,45 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaveArrayTest.positiveArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week9_Searching_and_Sorting.DiscussionProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Week9_Searching_and_Sorting.DiscussionProblems" />
-      <option name="MAIN_CLASS_NAME" value="Week9_Searching_and_Sorting.DiscussionProblems.WaveArrayTest" />
-      <option name="METHOD_NAME" value="positiveArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaveArrayTest.positiveNegativeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week9_Searching_and_Sorting.DiscussionProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Week9_Searching_and_Sorting.DiscussionProblems" />
-      <option name="MAIN_CLASS_NAME" value="Week9_Searching_and_Sorting.DiscussionProblems.WaveArrayTest" />
-      <option name="METHOD_NAME" value="positiveNegativeArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RotateImageTest.voidArray" />
+        <item itemvalue="JUnit.RotateImageTest" />
+        <item itemvalue="JUnit.RotateImageTest.Array3X3" />
         <item itemvalue="JUnit.WaveArrayTest" />
         <item itemvalue="JUnit.WaveArrayTest.oneElement" />
-        <item itemvalue="JUnit.WaveArrayTest.positiveNegativeArray" />
-        <item itemvalue="JUnit.WaveArrayTest.positiveArray" />
-        <item itemvalue="JUnit.SortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Week 3 Lab">
-      <created>1673184235709</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1673184235709</updated>
     </task>
     <task id="LOCAL-00019" summary="Week 3 Lab">
       <created>1673184322124</created>
@@ -532,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677857090830</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add Is Anagram">
+      <created>1677858742534</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1677858742534</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="NegativeSeparate" />
     <MESSAGE value="FrequencyElements" />
     <MESSAGE value="SearchPosition" />
     <MESSAGE value="SumTargetPair" />
@@ -573,7 +574,8 @@
     <MESSAGE value="add KMPAlgorithm" />
     <MESSAGE value="add ReverseWordsInString class" />
     <MESSAGE value="add Roman to Integer." />
-    <option name="LAST_COMMIT_MESSAGE" value="add Roman to Integer." />
+    <MESSAGE value="add Is Anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Is Anagram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
