@@ -1,4 +1,4 @@
-package Week6;
+package Week6_Arrays;
 //Longest Consecutive Sequence in an Array
 /*
 You are given an array of ‘N’ integers. You need to find the length of the

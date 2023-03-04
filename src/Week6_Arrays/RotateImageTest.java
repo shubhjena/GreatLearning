@@ -1,4 +1,4 @@
-package Week6;
+package Week6_Arrays;
 
 import org.junit.jupiter.api.Test;
 
