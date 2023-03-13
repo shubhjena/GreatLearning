@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add NumberOfStudentsUnableToEatLunch to week 12 Practice Problems">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add ImplementQueueUsingStack to practice problems week 12">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/CircularQueueImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/ImplementQueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/TimeNeededToBuyTickets.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/QueueImplementation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
@@ -96,7 +96,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImplementQueueUsingStack">
+  <component name="RunManager" selected="Application.TimeNeededToBuyTickets">
     <configuration name="BuiltInQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.BuiltInQueue" />
       <module name="GreatLearning" />
@@ -136,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueImplementation$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.QueueImplementation$Main" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecentCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.RecentCounter" />
       <module name="GreatLearning" />
@@ -162,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeNeededToBuyTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.TimeNeededToBuyTickets" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeNeededToBuyTickets" />
         <item itemvalue="Application.ImplementQueueUsingStack" />
         <item itemvalue="Application.NumberOfStudentsUnableToEatLunch" />
         <item itemvalue="Application.BuiltInQueue" />
         <item itemvalue="Application.RecentCounter" />
-        <item itemvalue="Application.QueueImplementation$Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00027" summary="ReverseNumber">
-      <created>1673977552077</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1673977552077</updated>
     </task>
     <task id="LOCAL-00028" summary="DigitSum">
       <created>1673978185705</created>
@@ -524,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678734512733</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add ImplementQueueUsingStack to practice problems week 12">
+      <created>1678736065426</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1678736065426</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Insertion Sort" />
     <MESSAGE value="Add Sort Testing" />
     <MESSAGE value="MergeSort" />
     <MESSAGE value="add Search package" />
@@ -565,7 +564,8 @@
     <MESSAGE value="update RecentCounter" />
     <MESSAGE value="add Built-in Queue implementation example" />
     <MESSAGE value="add NumberOfStudentsUnableToEatLunch to week 12 Practice Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="add NumberOfStudentsUnableToEatLunch to week 12 Practice Problems" />
+    <MESSAGE value="add ImplementQueueUsingStack to practice problems week 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ImplementQueueUsingStack to practice problems week 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
