@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add QueueImplementation to Week 12">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add CircularQueueImplementation">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/CircularQueueImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/FirstUniqueCharacterInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/ImplementStackUsingQueues.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -179,20 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00030" summary="DigitSum">
-      <created>1673981723116</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1673981723116</updated>
-    </task>
-    <task id="LOCAL-00031" summary="kElement">
-      <created>1674054075312</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1674054075312</updated>
     </task>
     <task id="LOCAL-00032" summary="Reverse Array">
       <created>1674054100007</created>
@@ -523,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678737841712</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add FirstUniqueCharacterInString to Week 12 Practice Questions">
+      <created>1678739553756</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1678739553756</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add CircularQueueImplementation">
+      <created>1678904790166</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1678904790176</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,8 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Search package" />
-    <MESSAGE value="Add QuickSort technique to sort package." />
     <MESSAGE value="test: add QuickSort object to  SortTest.java" />
     <MESSAGE value="Add comments to all sort techniques" />
     <MESSAGE value="Docs: add word file for lecture notes" />
@@ -564,7 +561,9 @@
     <MESSAGE value="add ImplementQueueUsingStack to practice problems week 12" />
     <MESSAGE value="add TimeNeededToBuyTickets to Week12 PracticeQuestions" />
     <MESSAGE value="add QueueImplementation to Week 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="add QueueImplementation to Week 12" />
+    <MESSAGE value="add FirstUniqueCharacterInString to Week 12 Practice Questions" />
+    <MESSAGE value="add CircularQueueImplementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CircularQueueImplementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
