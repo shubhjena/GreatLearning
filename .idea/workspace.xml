@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add RemoveAllAdjacentDuplicatesInString to practice problems week 12">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/RemoveAllAdjacentDuplicatesInStringII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/InfixToPostfix.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00035" summary="FrequencyElements">
-      <created>1674273891800</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1674273891800</updated>
     </task>
     <task id="LOCAL-00036" summary="SearchPosition">
       <created>1674278424440</created>
@@ -521,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678910851787</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12">
+      <created>1678914123293</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1678914123293</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Docs: add word file for lecture notes" />
     <MESSAGE value="add week 9 WaveArray.java" />
     <MESSAGE value="add week 9 WaveArrayII.java" />
     <MESSAGE value="add BinarySearch iterative method." />
@@ -562,7 +562,8 @@
     <MESSAGE value="add CircularQueueImplementation" />
     <MESSAGE value="add stack implementation using queues to week 12" />
     <MESSAGE value="add RemoveAllAdjacentDuplicatesInString to practice problems week 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="add RemoveAllAdjacentDuplicatesInString to practice problems week 12" />
+    <MESSAGE value="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
