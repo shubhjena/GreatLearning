@@ -26,8 +26,9 @@ public class InfixToPostfix {
             else if (ch == '(')
                 opStack.push(ch);
             else if (ch == ')') {
-                while (!opStack.isEmpty() && opStack.peek() == '(')
+                while (!opStack.isEmpty() && opStack.peek() != '(')
                     postfix.append(opStack.pop());
+                opStack.pop();
             }
             else {
                 while (!opStack.isEmpty() && (precedence(ch)<precedence(opStack.peek())))
@@ -40,8 +41,17 @@ public class InfixToPostfix {
         return postfix.toString();
     }
 
-    private static int precedence(char ch) {
-        //to be completed
-        return 0;
+    private static int precedence(char op) {
+        return switch (op) {
+            case '^' -> 3;
+            case '/', '*' -> 2;
+            case '+', '-' -> 1;
+            default -> -1;
+        };
+    }
+
+    public static void main(String[] args) {
+        String infix = "x+y*(z^p-q)";
+        System.out.println(InfixToPostfix.infixToPostfix(infix));
     }
 }
