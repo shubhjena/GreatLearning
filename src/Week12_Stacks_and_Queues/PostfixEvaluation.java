@@ -30,7 +30,7 @@ public class PostfixEvaluation {
     }
 
     public static void main(String[] args) {
-        String postfix = "1230^5-*+";
+        String postfix = "5402+/4*+25+-2/";
         int result = PostfixEvaluation.postfixEvaluation(postfix);
         System.out.println(result);
     }
