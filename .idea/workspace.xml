@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add InfixToPostfix to week 12">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Postfix to infix converter">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/PostfixEvaluation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/InfixToPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +94,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InfixToPostfix">
-    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.FirstUniqueCharacterInString" />
+  <component name="RunManager" selected="Application.PostfixEvaluation">
+    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.InfixToPostfix" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.InfixToPostfix" />
+    <configuration name="PostfixEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.PostfixEvaluation" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostfixToInfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.PostfixToInfix" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
@@ -146,26 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeNeededToBuyTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.TimeNeededToBuyTickets" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostfixEvaluation" />
+        <item itemvalue="Application.PostfixToInfix" />
         <item itemvalue="Application.InfixToPostfix" />
         <item itemvalue="Application.RemoveAllAdjacentDuplicatesInStringII" />
         <item itemvalue="Application.RemoveAllAdjacentDuplicatesInString" />
-        <item itemvalue="Application.FirstUniqueCharacterInString" />
-        <item itemvalue="Application.TimeNeededToBuyTickets" />
       </list>
     </recent_temporary>
   </component>
@@ -177,20 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00037" summary="SearchPosition">
-      <created>1674278730272</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1674278730272</updated>
-    </task>
-    <task id="LOCAL-00038" summary="SumTargetPair">
-      <created>1674283921593</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1674283921593</updated>
     </task>
     <task id="LOCAL-00039" summary="NegativeSort">
       <created>1674313005376</created>
@@ -521,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679077734690</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="add InfixToPostfix">
+      <created>1679078356940</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1679078356940</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add Postfix to infix converter">
+      <created>1679127229975</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1679127229975</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,8 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add week 9 WaveArrayII.java" />
-    <MESSAGE value="add BinarySearch iterative method." />
     <MESSAGE value="add TeamEqual Skill problem" />
     <MESSAGE value="add Week10 Package" />
     <MESSAGE value="add KMPAlgorithm" />
@@ -562,7 +561,9 @@
     <MESSAGE value="add RemoveAllAdjacentDuplicatesInString to practice problems week 12" />
     <MESSAGE value="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12" />
     <MESSAGE value="add InfixToPostfix to week 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="add InfixToPostfix to week 12" />
+    <MESSAGE value="add InfixToPostfix" />
+    <MESSAGE value="add Postfix to infix converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Postfix to infix converter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
