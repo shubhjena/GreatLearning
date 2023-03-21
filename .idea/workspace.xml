@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Postfix Evaluation">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add SimplifyPath">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/SimplifyPath.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
@@ -96,7 +95,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimplifyPath">
+  <component name="RunManager" selected="Application.StepsToMakeArrayNonDecreasing">
     <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.InfixToPostfix" />
       <module name="GreatLearning" />
@@ -164,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.StepsToMakeArrayNonDecreasing" />
+        <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.PostfixEvaluation" />
         <item itemvalue="Application.PostfixToInfix" />
         <item itemvalue="Application.InfixToPostfix" />
@@ -180,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00041" summary="LongestConsecutiveSequence">
-      <created>1674410993825</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1674410993825</updated>
     </task>
     <task id="LOCAL-00042" summary="LongestConsecutiveSequence">
       <created>1674413447751</created>
@@ -524,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679139170066</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="add SimplifyPath">
+      <created>1679335711712</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1679335711713</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Week10 Package" />
     <MESSAGE value="add KMPAlgorithm" />
     <MESSAGE value="add ReverseWordsInString class" />
     <MESSAGE value="add Roman to Integer." />
@@ -565,7 +563,8 @@
     <MESSAGE value="add InfixToPostfix" />
     <MESSAGE value="add Postfix to infix converter" />
     <MESSAGE value="add Postfix Evaluation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Postfix Evaluation" />
+    <MESSAGE value="add SimplifyPath" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SimplifyPath" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
