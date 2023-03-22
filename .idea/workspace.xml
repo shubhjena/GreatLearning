@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add SimplifyPath">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Pkg Week 13 Trees">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8_Searching_and_Sorting/Sorting/SortingNotes.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,20 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00042" summary="LongestConsecutiveSequence">
-      <created>1674413447751</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1674413447751</updated>
-    </task>
-    <task id="LOCAL-00043" summary="LongestConsecutiveSequence">
-      <created>1674546534239</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1674546534239</updated>
     </task>
     <task id="LOCAL-00044" summary="PalindromePartition">
       <created>1676388276447</created>
@@ -523,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679335711713</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="add Pkg Week 13 Trees">
+      <created>1679420823253</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1679420823253</updated>
+    </task>
+    <task id="LOCAL-00092" summary="add Pkg Week 13 Trees">
+      <created>1679420842577</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1679420842577</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add KMPAlgorithm" />
     <MESSAGE value="add ReverseWordsInString class" />
     <MESSAGE value="add Roman to Integer." />
     <MESSAGE value="add Is Anagram" />
@@ -564,7 +563,8 @@
     <MESSAGE value="add Postfix to infix converter" />
     <MESSAGE value="add Postfix Evaluation" />
     <MESSAGE value="add SimplifyPath" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SimplifyPath" />
+    <MESSAGE value="add Pkg Week 13 Trees" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pkg Week 13 Trees" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
