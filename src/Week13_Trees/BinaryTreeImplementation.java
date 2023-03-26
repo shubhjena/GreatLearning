@@ -1,17 +1,20 @@
 package Week13_Trees;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTreeImplementation {
 
     Node root;
 
     static class Node{
-        int value;
+        int data;
         Node left;
         Node right;
 
         //constructor
-        Node(int value){
-            this.value = value;
+        Node(int data){
+            this.data = data;
             left = null;
             right = null;
         }
@@ -20,9 +23,9 @@ public class BinaryTreeImplementation {
     private Node addRecursively(Node current, int value){
         if (current == null) return new Node(value);
 
-        else if (value < current.value)
+        else if (value < current.data)
             current.left = addRecursively(current.left, value);
-        else if (value > current.value)
+        else if (value > current.data)
             current.right = addRecursively(current.right,value);
 
         return current;
@@ -32,7 +35,35 @@ public class BinaryTreeImplementation {
         addRecursively(root, value);
     }
 
-    public void main(String[] args) {
+    private void levelOrderTraversal(Node root){
+        Queue<Node> queue = new LinkedList<>();
+        System.out.println(root.data);
+        if(root.left !=null) queue.add(root.left);
+        if(root.right !=null) queue.add(root.right);
+        while(!queue.isEmpty()) levelOrderTraversal(queue.poll());
+    }
+
+    public void printLevelOrder() {
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+
+            Node tempNode = queue.poll();
+            System.out.print(tempNode.data + " ");
+
+            /*Enqueue left child */
+            if (tempNode.left != null) {
+                queue.add(tempNode.left);
+            }
+
+            /*Enqueue right child */
+            if (tempNode.right != null) {
+                queue.add(tempNode.right);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
         //declaring the binary tree
         BinaryTreeImplementation bt = new BinaryTreeImplementation();
         bt.root = new Node(2);
