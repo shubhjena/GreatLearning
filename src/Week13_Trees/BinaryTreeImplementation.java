@@ -7,6 +7,7 @@ public class BinaryTreeImplementation {
 
     Node root;
 
+    //methods
     static class Node{
         int data;
         Node left;
@@ -35,6 +36,7 @@ public class BinaryTreeImplementation {
         addRecursively(root, value);
     }
 
+    //traversal methods
     private void levelOrderTraversal(Node root){
         Queue<Node> queue = new LinkedList<>();
         System.out.println(root.data);
@@ -43,6 +45,18 @@ public class BinaryTreeImplementation {
         while(!queue.isEmpty()) levelOrderTraversal(queue.poll());
     }
 
+    private void inOrderTraversal(Node root){
+        /*
+        Algorithm
+        1. Traverse the left subtree, i.e., call Inorder(left->subtree)
+        2. Visit the root.
+        3. Traverse the right subtree, i.e., call Inorder(right->subtree)
+         */
+        if (root == null) return;
+        inOrderTraversal(root.left);
+        System.out.println(root.data+ " ");
+        inOrderTraversal(root.right);
+    }
     public void printLevelOrder() {
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
