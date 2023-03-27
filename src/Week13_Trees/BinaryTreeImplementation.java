@@ -57,6 +57,20 @@ public class BinaryTreeImplementation {
         System.out.println(root.data+ " ");
         inOrderTraversal(root.right);
     }
+
+    private void preOrderTraversal(Node root){
+        /*
+        Algorithm Preorder(tree)
+        1. Visit the root.
+        2. Traverse the left subtree, i.e., call Preorder(left->subtree)
+        3. Traverse the right subtree, i.e., call Preorder(right->subtree)
+         */
+        if (root == null) return;
+        System.out.println(root.data);
+        preOrderTraversal(root.left);
+        preOrderTraversal(root.right);
+    }
+
     public void printLevelOrder() {
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
