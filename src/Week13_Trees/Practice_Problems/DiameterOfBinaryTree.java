@@ -1,5 +1,13 @@
 package Week13_Trees.Practice_Problems;
+//543. Diameter of Binary Tree
+/*
+Given the root of a binary tree, return the length of the diameter of the tree.
 
+The diameter of a binary tree is the length of the longest path between any two nodes in a tree.
+This path may or may not pass through the root.
+
+The length of a path between two nodes is represented by the number of edges between them.
+ */
 public class DiameterOfBinaryTree {
     public static class Pair{
         int diameter;
@@ -10,24 +18,7 @@ public class DiameterOfBinaryTree {
             this.height = height;
         }
     }
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-      }
-  }
-  public static TreeNode insertTreeNode(TreeNode root, int val){
-        if (root == null) return new TreeNode(val);
-        else if (val < root.val) root.left = insertTreeNode(root.left,val);
-        else root.right  = insertTreeNode(root.right,val);
-        return root;
-  }
+
   public static int diameterOfBinaryTree(TreeNode root) {
       Pair res = diameterOfBinaryTreeHelper(root);
       return res.diameter;
@@ -51,13 +42,13 @@ public class DiameterOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        TreeNode root;
+        BinaryTree bt = new BinaryTree();
         int[] input = new int[]{1,2};
-        root = new TreeNode(input[0]);
+        bt.root = new TreeNode(input[0]);
         for (int i=1;i< input.length; i++){
-          insertTreeNode(root,input[i]);
+          bt.insertTreeNode(bt.root,input[i]);
         }
         System.out.println("Diameter of the given Tree is: ");
-        System.out.println(diameterOfBinaryTree(root));
+        System.out.println(diameterOfBinaryTree(bt.root));
     }
 }
