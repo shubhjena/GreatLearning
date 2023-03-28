@@ -10,15 +10,22 @@ The tree 'tree' could also be considered as a subtree of itself.
 
 public class SubtreeOfAnotherTree {
     public static boolean isSubtree(TreeNode root, TreeNode subRoot) {
+        //the root is null, or we have reached the leaf node
         if(root ==  null || subRoot ==null) return (subRoot== null)&&(root==null);
+
+        //the root of subtree matches current node of tree
         if(root.val == subRoot.val){
+            //returns true only if all subtrees match
             if(isSubtreeHelper(root,subRoot)) return true;
+            //when false the recursion resumes from children of node which matched the root of subtree
         }
         return (isSubtree(root.left,subRoot) || isSubtree(root.right,subRoot) );
     }
+    //method to check if subsequent nodes match once the root node of subtree has matched
     public static boolean isSubtreeHelper(TreeNode root, TreeNode subRoot) {
         if(root ==  null || subRoot ==null) return (subRoot== null)&&(root==null);
         if(root.val == subRoot.val){
+            //return true only if both left and right subtrees are a match
             return (isSubtreeHelper(root.left,subRoot.left) &&
                     isSubtreeHelper(root.right,subRoot.right) );
         }
