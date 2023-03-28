@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add delete Node to binary tree implementation">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add RangeSumOfBST to practice problems week 13">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StockSpan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/ValidExpression.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/InvertBinaryTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/DiameterOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +98,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+  <component name="RunManager" selected="Application.RangeSumOfBST">
     <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.DiameterOfBinaryTree" />
       <module name="GreatLearning" />
@@ -115,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.PostfixEvaluation" />
+    <configuration name="RangeSumOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.RangeSumOfBST" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
+          <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RangeSumOfBST" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.SumTree" />
         <item itemvalue="Application.StepsToMakeArrayNonDecreasing" />
         <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.PostfixEvaluation" />
       </list>
     </recent_temporary>
   </component>
@@ -185,48 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Add Sort Testing">
-      <created>1676408397281</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1676408397281</updated>
-    </task>
-    <task id="LOCAL-00053" summary="MergeSort">
-      <created>1676446756435</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1676446756435</updated>
-    </task>
-    <task id="LOCAL-00054" summary="add Search package">
-      <created>1676451753586</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1676451753586</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Add QuickSort technique to sort package.">
-      <created>1676476372612</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1676476372612</updated>
-    </task>
-    <task id="LOCAL-00056" summary="test: add QuickSort object to  SortTest.java">
-      <created>1676476547538</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1676476547538</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Add comments to all sort techniques">
-      <created>1676488040842</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1676488040842</updated>
     </task>
     <task id="LOCAL-00058" summary="Docs: add word file for lecture notes">
       <created>1676492272499</created>
@@ -529,7 +484,49 @@
       <option name="project" value="LOCAL" />
       <updated>1680029872652</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="add invert Binary tree to practice problem week 13">
+      <created>1680035504270</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1680035504270</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add binary tree class to practice problems week 13">
+      <created>1680036333029</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1680036333029</updated>
+    </task>
+    <task id="LOCAL-00103" summary="update TreeNode class: TreeNode class declared as package private class separately">
+      <created>1680036430657</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1680036430657</updated>
+    </task>
+    <task id="LOCAL-00104" summary="add SubtreeOfAnotherTree to practice problems week 13">
+      <created>1680039694688</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1680039694689</updated>
+    </task>
+    <task id="LOCAL-00105" summary="update SubtreeOfAnotherTree: add comments to code">
+      <created>1680040137383</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1680040137383</updated>
+    </task>
+    <task id="LOCAL-00106" summary="add RangeSumOfBST to practice problems week 13">
+      <created>1680041909453</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1680041909453</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,12 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update RecentCounter" />
-    <MESSAGE value="add Built-in Queue implementation example" />
-    <MESSAGE value="add NumberOfStudentsUnableToEatLunch to week 12 Practice Problems" />
-    <MESSAGE value="add ImplementQueueUsingStack to practice problems week 12" />
-    <MESSAGE value="add TimeNeededToBuyTickets to Week12 PracticeQuestions" />
-    <MESSAGE value="add QueueImplementation to Week 12" />
     <MESSAGE value="add FirstUniqueCharacterInString to Week 12 Practice Questions" />
     <MESSAGE value="add CircularQueueImplementation" />
     <MESSAGE value="add stack implementation using queues to week 12" />
@@ -570,7 +561,13 @@
     <MESSAGE value="add pre-order traversal to tree implementation" />
     <MESSAGE value="add DiameterOfBinaryTree to week 13 practice problems" />
     <MESSAGE value="add delete Node to binary tree implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add delete Node to binary tree implementation" />
+    <MESSAGE value="add invert Binary tree to practice problem week 13" />
+    <MESSAGE value="add binary tree class to practice problems week 13" />
+    <MESSAGE value="update TreeNode class: TreeNode class declared as package private class separately" />
+    <MESSAGE value="add SubtreeOfAnotherTree to practice problems week 13" />
+    <MESSAGE value="update SubtreeOfAnotherTree: add comments to code" />
+    <MESSAGE value="add RangeSumOfBST to practice problems week 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="add RangeSumOfBST to practice problems week 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

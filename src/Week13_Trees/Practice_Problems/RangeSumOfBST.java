@@ -9,10 +9,10 @@ public class RangeSumOfBST {
         if(root == null) return 0;
         int sum = 0;
         if(root.val>=low && root.val<=high) sum+=root.val;
-        //return sum of node value + left subtree + right subtree
-        return  sum +
-                rangeSumBST(root.left,low,high) +
-                rangeSumBST(root.right,low,high);
+        //as it is BST
+        if(root.val>low) sum+=rangeSumBST(root.left,low,high);
+        if(root.val<high) sum+=rangeSumBST(root.right,low,high);
+        return  sum;
     }
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
