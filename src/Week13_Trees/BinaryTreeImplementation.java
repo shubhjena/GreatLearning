@@ -7,7 +7,7 @@ public class BinaryTreeImplementation {
 
     Node root;
 
-    //methods
+    //constructor
     static class Node{
         int data;
         Node left;
@@ -19,8 +19,13 @@ public class BinaryTreeImplementation {
             left = null;
             right = null;
         }
+
     }
 
+    //inserting a node
+    private void add(int value){
+        addRecursively(root, value);
+    }
     private Node addRecursively(Node current, int value){
         if (current == null) return new Node(value);
 
@@ -32,9 +37,18 @@ public class BinaryTreeImplementation {
         return current;
     }
 
-    private void add(int value){
-        addRecursively(root, value);
+    //searching a node
+    private Node search(Node root, int val){
+        if (root == null) return null;
+        else if (val == root.data) return root;
+        else if (val < root.data) return search(root.left, val);
+        else return search(root.right, val);
     }
+
+    //deleting a node
+//    private boolean delete(Node root,int val){
+//
+//    }
 
     //traversal methods
     private void levelOrderTraversal(Node root){
@@ -66,9 +80,22 @@ public class BinaryTreeImplementation {
         3. Traverse the right subtree, i.e., call Preorder(right->subtree)
          */
         if (root == null) return;
-        System.out.println(root.data);
+        System.out.println(root.data+" ");
         preOrderTraversal(root.left);
         preOrderTraversal(root.right);
+    }
+
+    private void postOrderTraversal(Node root){
+        /*
+            Algorithm Postorder(tree)
+            1. Traverse the left subtree, i.e., call Postorder(left->subtree)
+            2. Traverse the right subtree, i.e., call Postorder(right->subtree)
+            3. Visit the root
+         */
+        if (root == null) return;
+        postOrderTraversal(root.left);
+        postOrderTraversal(root.right);
+        System.out.println(root.data+" ");
     }
 
     public void printLevelOrder() {
@@ -94,15 +121,12 @@ public class BinaryTreeImplementation {
     public static void main(String[] args) {
         //declaring the binary tree
         BinaryTreeImplementation bt = new BinaryTreeImplementation();
-        bt.root = new Node(2);
-        bt.add(2);
-        bt.add(0);
-        bt.add(6);
-        bt.add(4);
-        bt.add(8);
-        bt.add(3);
-        bt.add(5);
-        bt.add(7);
-        bt.add(9);
+        int[] input = new int[]{2,0,6,4,8,3,5,7,9};
+        bt.root = new Node(input[0]);
+        for (int i = 1; i<input.length; i++){
+            bt.add(input[i]);
+        }
+        bt.search(bt.root,5);
+
     }
 }
