@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add RangeSumOfBST to practice problems week 13">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="update RangeSumOfBST to practice problems week 13">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
@@ -182,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Docs: add word file for lecture notes">
-      <created>1676492272499</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1676492272515</updated>
     </task>
     <task id="LOCAL-00059" summary="add week 9 WaveArray.java">
       <created>1676754618238</created>
@@ -526,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680041909453</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="update RangeSumOfBST to practice problems week 13">
+      <created>1680042417964</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1680042417964</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add FirstUniqueCharacterInString to Week 12 Practice Questions" />
     <MESSAGE value="add CircularQueueImplementation" />
     <MESSAGE value="add stack implementation using queues to week 12" />
     <MESSAGE value="add RemoveAllAdjacentDuplicatesInString to practice problems week 12" />
@@ -567,7 +566,8 @@
     <MESSAGE value="add SubtreeOfAnotherTree to practice problems week 13" />
     <MESSAGE value="update SubtreeOfAnotherTree: add comments to code" />
     <MESSAGE value="add RangeSumOfBST to practice problems week 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="add RangeSumOfBST to practice problems week 13" />
+    <MESSAGE value="update RangeSumOfBST to practice problems week 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="update RangeSumOfBST to practice problems week 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
