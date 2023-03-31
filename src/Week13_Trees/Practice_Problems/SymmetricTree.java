@@ -20,10 +20,7 @@ public class SymmetricTree {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         int[] input = new int[]{1,2,2,3,4,4,3};
-        tree.root = new TreeNode(input[0]);
-        for (int i=1;i< input.length; i++){
-            tree.insertTreeNode(tree.root,input[i]);
-        }
+        tree.root = tree.insertLevelOrder(input,0);
         System.out.println("Is the binary tree symmetric?\n"+ isSymmetric(tree.root));
     }
 }

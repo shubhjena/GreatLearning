@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="update RangeSumOfBST to practice problems week 13">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add symmetric tree to practice problems week 13">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
@@ -13,7 +13,9 @@
       <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/SymmetricTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +99,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RangeSumOfBST">
+  <component name="RunManager" selected="Application.SymmetricTree">
     <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.DiameterOfBinaryTree" />
       <module name="GreatLearning" />
@@ -117,19 +119,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.SimplifyPath" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,13 +152,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.SymmetricTree" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SymmetricTree" />
         <item itemvalue="Application.RangeSumOfBST" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.SumTree" />
         <item itemvalue="Application.StepsToMakeArrayNonDecreasing" />
-        <item itemvalue="Application.SimplifyPath" />
       </list>
     </recent_temporary>
   </component>
@@ -181,20 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00060" summary="add week 9 WaveArrayII.java">
-      <created>1676754649967</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1676754649967</updated>
-    </task>
-    <task id="LOCAL-00061" summary="add BinarySearch iterative method.">
-      <created>1676783359323</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1676783359324</updated>
     </task>
     <task id="LOCAL-00062" summary="add TeamEqual Skill problem">
       <created>1676916905005</created>
@@ -525,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680200316217</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="update binary tree implementation">
+      <created>1680284838708</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1680284838708</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add symmetric tree to practice problems week 13">
+      <created>1680287075833</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1680287075833</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,8 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add CircularQueueImplementation" />
-    <MESSAGE value="add stack implementation using queues to week 12" />
     <MESSAGE value="add RemoveAllAdjacentDuplicatesInString to practice problems week 12" />
     <MESSAGE value="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12" />
     <MESSAGE value="add InfixToPostfix to week 12" />
@@ -566,7 +566,9 @@
     <MESSAGE value="update SubtreeOfAnotherTree: add comments to code" />
     <MESSAGE value="add RangeSumOfBST to practice problems week 13" />
     <MESSAGE value="update RangeSumOfBST to practice problems week 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="update RangeSumOfBST to practice problems week 13" />
+    <MESSAGE value="update binary tree implementation" />
+    <MESSAGE value="add symmetric tree to practice problems week 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="add symmetric tree to practice problems week 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
