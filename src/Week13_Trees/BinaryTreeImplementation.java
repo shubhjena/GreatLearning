@@ -45,11 +45,6 @@ public class BinaryTreeImplementation {
         else return search(root.right, val);
     }
 
-    //deleting a node
-//    private boolean delete(Node root,int val){
-//
-//    }
-
     //traversal methods
     private void levelOrderTraversal(Node root){
         Queue<Node> queue = new LinkedList<>();

@@ -13,7 +13,6 @@
       <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
     </list>
@@ -182,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00059" summary="add week 9 WaveArray.java">
-      <created>1676754618238</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1676754618238</updated>
     </task>
     <task id="LOCAL-00060" summary="add week 9 WaveArrayII.java">
       <created>1676754649967</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680042417964</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="update RangeSumOfBST to practice problems week 13">
+      <created>1680200316217</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1680200316217</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
