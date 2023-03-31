@@ -1,5 +1,7 @@
 package Week13_Trees.Practice_Problems;
 
+import java.util.*;
+
 public class BinaryTree {
     TreeNode root;
 
@@ -22,6 +24,25 @@ public class BinaryTree {
             root.right = insertLevelOrder(arr, 2 * i + 2);
         }
         return root;
+    }
+    public void levelOrderTraversal(TreeNode root){
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+
+            TreeNode tempNode = queue.poll();
+            System.out.print(tempNode.val + " ");
+
+            /*Enqueue left child */
+            if (tempNode.left != null) {
+                queue.add(tempNode.left);
+            }
+
+            /*Enqueue right child */
+            if (tempNode.right != null) {
+                queue.add(tempNode.right);
+            }
+        }
     }
 }
 class TreeNode {

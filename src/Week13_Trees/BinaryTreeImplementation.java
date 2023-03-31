@@ -46,12 +46,24 @@ public class BinaryTreeImplementation {
     }
 
     //traversal methods
-    private void levelOrderTraversal(Node root){
+    public void levelOrderTraversal(Node root){
         Queue<Node> queue = new LinkedList<>();
-        System.out.println(root.data);
-        if(root.left !=null) queue.add(root.left);
-        if(root.right !=null) queue.add(root.right);
-        while(!queue.isEmpty()) levelOrderTraversal(queue.poll());
+        queue.add(root);
+        while (!queue.isEmpty()) {
+
+            Node tempNode = queue.poll();
+            System.out.print(tempNode.data + " ");
+
+            /*Enqueue left child */
+            if (tempNode.left != null) {
+                queue.add(tempNode.left);
+            }
+
+            /*Enqueue right child */
+            if (tempNode.right != null) {
+                queue.add(tempNode.right);
+            }
+        }
     }
 
     private void inOrderTraversal(Node root){
