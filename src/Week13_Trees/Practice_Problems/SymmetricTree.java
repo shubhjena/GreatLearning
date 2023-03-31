@@ -1,5 +1,8 @@
 package Week13_Trees.Practice_Problems;
-
+//101. Symmetric Tree
+/*
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+ */
 public class SymmetricTree {
     static boolean flag = true;
     public static boolean isSymmetric(TreeNode root) {
