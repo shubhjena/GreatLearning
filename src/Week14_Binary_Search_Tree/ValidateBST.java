@@ -1,4 +1,5 @@
-package Week14_Binary_Search_Tree.Practice_Problems;
+package Week14_Binary_Search_Tree;
+
 //98. Validate Binary Search Tree
 /*
 Given the root of a binary tree, determine if it is a valid binary search tree (BST).
