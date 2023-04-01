@@ -1,5 +1,12 @@
 package Week14_Binary_Search_Tree;
-
+//450. Delete Node in a BST
+/*
+Given a root node reference of a BST and a key, delete the node with the given key in the BST.
+Return the root node reference (possibly updated) of the BST.
+Basically, the deletion can be divided into two stages:
+Search for a node to remove.
+If the node is found, delete the node.
+ */
 public class DeleteNodeInBST {
     public static TreeNode deleteNode(TreeNode root, int key) {
         if(root == null) return null;
