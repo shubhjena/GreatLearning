@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add search BST to Week 14">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="update DeleteNodeInBST in week 14">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StockSpan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/ValidExpression.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/Practice_Problems/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/Practice_Problems/ValidateBST.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -46,39 +48,40 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Week14_Binary_Search_Tree&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last.edited.regexp": "gj18cq8476",
+    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Week14_Binary_Search_Tree/Practice_Problems",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week14_Binary_Search_Tree\Practice_Problems" />
       <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week14_Binary_Search_Tree" />
       <recent name="D:\IDEA Projects\GL_Weekly_Assignments\src" />
     </key>
@@ -98,7 +101,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteNodeInBST">
+  <component name="RunManager" selected="Application.ValidateBST">
     <configuration name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.BinaryTreePaths" />
       <module name="GreatLearning" />
@@ -151,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArrayToHeightBalancedBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.SortedArrayToHeightBalancedBST" />
+    <configuration name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week14_Binary_Search_Tree.Practice_Problems.ValidateBST" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
+          <option name="PATTERN" value="Week14_Binary_Search_Tree.Practice_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidateBST" />
         <item itemvalue="Application.DeleteNodeInBST" />
         <item itemvalue="Application.BinaryTreePaths" />
         <item itemvalue="Application.MaxDepthOfBinaryTree" />
         <item itemvalue="Application.MergeTwoBinaryTrees" />
-        <item itemvalue="Application.SortedArrayToHeightBalancedBST" />
       </list>
     </recent_temporary>
   </component>
@@ -182,20 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00073" summary="update RecentCounter">
-      <created>1678709860642</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1678709860642</updated>
-    </task>
-    <task id="LOCAL-00074" summary="add Built-in Queue implementation example">
-      <created>1678709934288</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1678709934288</updated>
     </task>
     <task id="LOCAL-00075" summary="add NumberOfStudentsUnableToEatLunch to week 12 Practice Problems">
       <created>1678734512732</created>
@@ -526,7 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680374298895</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="add DeleteNodeInBST to week 14">
+      <created>1680374958520</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1680374958520</updated>
+    </task>
+    <task id="LOCAL-00123" summary="update DeleteNodeInBST in week 14">
+      <created>1680375153687</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375153687</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,8 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add level order traversal to binary tree implementation" />
-    <MESSAGE value="add SumTree to Trees" />
     <MESSAGE value="update SumTree to Trees" />
     <MESSAGE value="add inorder traversal to tree implementation" />
     <MESSAGE value="add pre-order traversal to tree implementation" />
@@ -567,7 +568,9 @@
     <MESSAGE value="add InsertIntoBST to week 14" />
     <MESSAGE value="add min Element of BST to Week 14" />
     <MESSAGE value="add search BST to Week 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="add search BST to Week 14" />
+    <MESSAGE value="add DeleteNodeInBST to week 14" />
+    <MESSAGE value="update DeleteNodeInBST in week 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="update DeleteNodeInBST in week 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
