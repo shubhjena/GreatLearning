@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactor ValidateBST to week 14 practice problems">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add LCA to week 14">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
@@ -12,7 +12,6 @@
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/ValidExpression.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/LowestCommonAncestorBST.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -186,20 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00078" summary="add QueueImplementation to Week 12">
-      <created>1678737841712</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1678737841712</updated>
-    </task>
-    <task id="LOCAL-00079" summary="add FirstUniqueCharacterInString to Week 12 Practice Questions">
-      <created>1678739553756</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1678739553756</updated>
     </task>
     <task id="LOCAL-00080" summary="add CircularQueueImplementation">
       <created>1678904790166</created>
@@ -530,7 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680379444916</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="add LCA to week 14">
+      <created>1680545686740</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1680545686740</updated>
+    </task>
+    <task id="LOCAL-00128" summary="add LCA to week 14">
+      <created>1680545699597</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1680545699597</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add DiameterOfBinaryTree to week 13 practice problems" />
     <MESSAGE value="add delete Node to binary tree implementation" />
     <MESSAGE value="add invert Binary tree to practice problem week 13" />
     <MESSAGE value="add binary tree class to practice problems week 13" />
@@ -571,7 +569,8 @@
     <MESSAGE value="add binary tree to week 14 practice problems" />
     <MESSAGE value="add ValidateBST to week 14 practice problems" />
     <MESSAGE value="refactor ValidateBST to week 14 practice problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor ValidateBST to week 14 practice problems" />
+    <MESSAGE value="add LCA to week 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LCA to week 14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
