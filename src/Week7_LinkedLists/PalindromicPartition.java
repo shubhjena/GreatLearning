@@ -1,4 +1,4 @@
-package Week7;
+package Week7_LinkedLists;
 /*
 Given a string, print all possible palindromic partitions.
 Given a string, find all possible palindromic partitions of given string.
