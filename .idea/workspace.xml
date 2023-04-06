@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add LCA to week 14">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add PowerOf2 to week 11 bit manipulation">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/Bit_Manipulation/MinBitFlipsToConvertNumber.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StockSpan.java" afterDir="false" />
@@ -14,7 +15,7 @@
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/PalindromicPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7_LinkedLists/PalindromicPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +101,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidateBST">
-    <configuration name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.BinaryTreePaths" />
+  <component name="RunManager" selected="Application.MinBitFlipsToConvertNumber">
+    <configuration name="CountOfSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.CountOfSetBits" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteNodeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week14_Binary_Search_Tree.DeleteNodeInBST" />
+    <configuration name="FindPosOfSetBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.FindPosOfSetBit" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week14_Binary_Search_Tree.*" />
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.MaxDepthOfBinaryTree" />
+    <configuration name="MinBitFlipsToConvertNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.MinBitFlipsToConvertNumber" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoBinaryTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week13_Trees.Practice_Problems.MergeTwoBinaryTrees" />
+    <configuration name="NonRepeatingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.NonRepeatingNumbers" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week13_Trees.Practice_Problems.*" />
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week14_Binary_Search_Tree.ValidateBST" />
+    <configuration name="PowerOf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.PowerOf2" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week14_Binary_Search_Tree.*" />
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidateBST" />
-        <item itemvalue="Application.DeleteNodeInBST" />
-        <item itemvalue="Application.BinaryTreePaths" />
-        <item itemvalue="Application.MaxDepthOfBinaryTree" />
-        <item itemvalue="Application.MergeTwoBinaryTrees" />
+        <item itemvalue="Application.MinBitFlipsToConvertNumber" />
+        <item itemvalue="Application.PowerOf2" />
+        <item itemvalue="Application.FindPosOfSetBit" />
+        <item itemvalue="Application.CountOfSetBits" />
+        <item itemvalue="Application.NonRepeatingNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -184,48 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00082" summary="add stack implementation using queues to week 12">
-      <created>1678908315308</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1678908315308</updated>
-    </task>
-    <task id="LOCAL-00083" summary="add RemoveAllAdjacentDuplicatesInString to practice problems week 12">
-      <created>1678910851787</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1678910851787</updated>
-    </task>
-    <task id="LOCAL-00084" summary="add RemoveAllAdjacentDuplicatesInStringII to practice problems week 12">
-      <created>1678914123293</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1678914123293</updated>
-    </task>
-    <task id="LOCAL-00085" summary="add InfixToPostfix to week 12">
-      <created>1679077734690</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1679077734690</updated>
-    </task>
-    <task id="LOCAL-00086" summary="add InfixToPostfix">
-      <created>1679078356940</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1679078356940</updated>
-    </task>
-    <task id="LOCAL-00087" summary="add Postfix to infix converter">
-      <created>1679127229975</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1679127229975</updated>
     </task>
     <task id="LOCAL-00088" summary="add Postfix Evaluation">
       <created>1679138948478</created>
@@ -528,7 +487,49 @@
       <option name="project" value="LOCAL" />
       <updated>1680632372292</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="update palindromic partition">
+      <created>1680717864255</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1680717864255</updated>
+    </task>
+    <task id="LOCAL-00132" summary="add BitManipulation basic operations to week 11 bit manipulation package">
+      <created>1680798942618</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1680798942619</updated>
+    </task>
+    <task id="LOCAL-00133" summary="add count of set bits to week 11 bit manipulation">
+      <created>1680798987837</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1680798987837</updated>
+    </task>
+    <task id="LOCAL-00134" summary="add FindPosOfSetBit to week 11 bit manipulation">
+      <created>1680799025619</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1680799025619</updated>
+    </task>
+    <task id="LOCAL-00135" summary="add NonRepeatingNumbers to week 11 bit manipulation">
+      <created>1680799062059</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1680799062059</updated>
+    </task>
+    <task id="LOCAL-00136" summary="add PowerOf2 to week 11 bit manipulation">
+      <created>1680799090175</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1680799090175</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,12 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add delete Node to binary tree implementation" />
-    <MESSAGE value="add invert Binary tree to practice problem week 13" />
-    <MESSAGE value="add binary tree class to practice problems week 13" />
-    <MESSAGE value="update TreeNode class: TreeNode class declared as package private class separately" />
-    <MESSAGE value="add SubtreeOfAnotherTree to practice problems week 13" />
-    <MESSAGE value="update SubtreeOfAnotherTree: add comments to code" />
     <MESSAGE value="add RangeSumOfBST to practice problems week 13" />
     <MESSAGE value="update RangeSumOfBST to practice problems week 13" />
     <MESSAGE value="update binary tree implementation" />
@@ -569,7 +564,13 @@
     <MESSAGE value="add ValidateBST to week 14 practice problems" />
     <MESSAGE value="refactor ValidateBST to week 14 practice problems" />
     <MESSAGE value="add LCA to week 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LCA to week 14" />
+    <MESSAGE value="update palindromic partition" />
+    <MESSAGE value="add BitManipulation basic operations to week 11 bit manipulation package" />
+    <MESSAGE value="add count of set bits to week 11 bit manipulation" />
+    <MESSAGE value="add FindPosOfSetBit to week 11 bit manipulation" />
+    <MESSAGE value="add NonRepeatingNumbers to week 11 bit manipulation" />
+    <MESSAGE value="add PowerOf2 to week 11 bit manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PowerOf2 to week 11 bit manipulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
