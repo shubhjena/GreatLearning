@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add CountingBits to week 11 bit manipulation">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactor: rename week 1 to week 5 packages">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/Bit_Manipulation/NthMagicNumber.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StockSpan.java" afterDir="false" />
@@ -15,13 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/FrequencyElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/FrequencyElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/NegativeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/NegativeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/SearchPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/SearchPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/SumTargetPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/SumTargetPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/UnionIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/UnionIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4/kElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Algorithmic_Analysis/kElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week1/W1_OOPS_Shapes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week1_Introduction/W1_OOPS_Shapes/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,20 +102,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountingBits">
-    <configuration name="CountOfSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.CountOfSetBits" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NthMagicNumber">
     <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.CountingBits" />
       <module name="GreatLearning" />
@@ -160,6 +142,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NthMagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.NthMagicNumber" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PowerOf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.PowerOf2" />
       <module name="GreatLearning" />
@@ -175,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NthMagicNumber" />
         <item itemvalue="Application.CountingBits" />
         <item itemvalue="Application.MinBitFlipsToConvertNumber" />
         <item itemvalue="Application.PowerOf2" />
         <item itemvalue="Application.FindPosOfSetBit" />
-        <item itemvalue="Application.CountOfSetBits" />
       </list>
     </recent_temporary>
   </component>
@@ -191,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00091" summary="add Pkg Week 13 Trees">
-      <created>1679420823253</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1679420823253</updated>
     </task>
     <task id="LOCAL-00092" summary="add Pkg Week 13 Trees">
       <created>1679420842577</created>
@@ -535,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680815113096</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="refactor: rename week 1 to week 5 packages">
+      <created>1680849798949</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1680849798949</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +546,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update binary tree implementation" />
     <MESSAGE value="add symmetric tree to practice problems week 13" />
     <MESSAGE value="fix levelOrderTraversal" />
     <MESSAGE value="add SortedArrayToHeightBalancedBST to practice problems" />
@@ -576,7 +570,8 @@
     <MESSAGE value="add PowerOf2 to week 11 bit manipulation" />
     <MESSAGE value="add MinBitFlipsToConvertNumber to week 11 bit manipulation" />
     <MESSAGE value="add CountingBits to week 11 bit manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CountingBits to week 11 bit manipulation" />
+    <MESSAGE value="refactor: rename week 1 to week 5 packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: rename week 1 to week 5 packages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
