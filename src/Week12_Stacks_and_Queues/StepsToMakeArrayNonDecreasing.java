@@ -1,5 +1,10 @@
 package Week12_Stacks_and_Queues;
-
+//2289. Steps to Make Array Non-decreasing
+/*
+You are given a 0-indexed integer array nums.
+In one step, remove all elements nums[i] where nums[i - 1] > nums[i] for all 0 < i < nums.length.
+Return the number of steps performed until nums becomes a non-decreasing array.
+ */
 import java.util.Stack;
 
 public class StepsToMakeArrayNonDecreasing {
