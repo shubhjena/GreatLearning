@@ -7,7 +7,6 @@ public class BinaryTreeImplementation {
 
     Node root;
 
-    //constructor
     static class Node{
         int data;
         Node left;
@@ -46,6 +45,7 @@ public class BinaryTreeImplementation {
     }
 
     //traversal methods
+    @SuppressWarnings("unused")
     public void levelOrderTraversal(Node root){
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
@@ -65,7 +65,7 @@ public class BinaryTreeImplementation {
             }
         }
     }
-
+    @SuppressWarnings("unused")
     private void inOrderTraversal(Node root){
         /*
         Algorithm
@@ -78,7 +78,7 @@ public class BinaryTreeImplementation {
         System.out.println(root.data+ " ");
         inOrderTraversal(root.right);
     }
-
+    @SuppressWarnings("unused")
     private void preOrderTraversal(Node root){
         /*
         Algorithm Preorder(tree)
@@ -91,7 +91,7 @@ public class BinaryTreeImplementation {
         preOrderTraversal(root.left);
         preOrderTraversal(root.right);
     }
-
+    @SuppressWarnings("unused")
     private void postOrderTraversal(Node root){
         /*
             Algorithm Postorder(tree)
@@ -104,7 +104,7 @@ public class BinaryTreeImplementation {
         postOrderTraversal(root.right);
         System.out.println(root.data+" ");
     }
-
+    @SuppressWarnings("unused")
     public void printLevelOrder() {
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);

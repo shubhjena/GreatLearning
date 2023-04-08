@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add JewelsAndStones to week 11 Hashing">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactors: add comments">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StockSpan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/ValidExpression.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/MaxDepthOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,39 +113,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecentCounter">
+  <component name="RunManager" selected="Application.ValidExpression">
     <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.FirstUniqueCharacterInString" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntersectionOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.IntersectionOfArrays" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.JewelsAndStones" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +140,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.UnionOfArrays" />
+    <configuration name="StepsToMakeArrayNonDecreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.StepsToMakeArrayNonDecreasing" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Hashing.*" />
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockSpan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.StockSpan" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.ValidExpression" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidExpression" />
+        <item itemvalue="Application.StockSpan" />
+        <item itemvalue="Application.StepsToMakeArrayNonDecreasing" />
         <item itemvalue="Application.RecentCounter" />
         <item itemvalue="Application.FirstUniqueCharacterInString" />
-        <item itemvalue="Application.JewelsAndStones" />
-        <item itemvalue="Application.IntersectionOfArrays" />
-        <item itemvalue="Application.UnionOfArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -197,34 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00107" summary="update RangeSumOfBST to practice problems week 13">
-      <created>1680042417964</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1680042417964</updated>
-    </task>
-    <task id="LOCAL-00108" summary="update RangeSumOfBST to practice problems week 13">
-      <created>1680200316217</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1680200316217</updated>
-    </task>
-    <task id="LOCAL-00109" summary="update binary tree implementation">
-      <created>1680284838708</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1680284838708</updated>
-    </task>
-    <task id="LOCAL-00110" summary="add symmetric tree to practice problems week 13">
-      <created>1680287075833</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1680287075833</updated>
     </task>
     <task id="LOCAL-00111" summary="add symmetric tree to practice problems week 13">
       <created>1680288190042</created>
@@ -541,7 +513,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680978684986</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="add JewelsAndStones to week 11 Hashing">
+      <created>1680978720559</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1680978720559</updated>
+    </task>
+    <task id="LOCAL-00157" summary="add StepsToMakeArrayNonDecreasing to week 12 Stacks &amp; Queues">
+      <created>1680981832048</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1680981832048</updated>
+    </task>
+    <task id="LOCAL-00158" summary="add StockSpan to week 12 Stacks &amp; Queues">
+      <created>1680984794424</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1680984794424</updated>
+    </task>
+    <task id="LOCAL-00159" summary="add ValidExpression to week 12 Stacks &amp; Queues">
+      <created>1680988959700</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1680988959700</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,10 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add binary tree to week 14 practice problems" />
-    <MESSAGE value="add ValidateBST to week 14 practice problems" />
-    <MESSAGE value="refactor ValidateBST to week 14 practice problems" />
-    <MESSAGE value="add LCA to week 14" />
     <MESSAGE value="update palindromic partition" />
     <MESSAGE value="add BitManipulation basic operations to week 11 bit manipulation package" />
     <MESSAGE value="add count of set bits to week 11 bit manipulation" />
@@ -582,7 +578,11 @@
     <MESSAGE value="add UnionOfArrays to week 11 Hashing" />
     <MESSAGE value="add IntersectionOfArrays to week 11 Hashing" />
     <MESSAGE value="add JewelsAndStones to week 11 Hashing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add JewelsAndStones to week 11 Hashing" />
+    <MESSAGE value="add StepsToMakeArrayNonDecreasing to week 12 Stacks &amp; Queues" />
+    <MESSAGE value="add StockSpan to week 12 Stacks &amp; Queues" />
+    <MESSAGE value="add ValidExpression to week 12 Stacks &amp; Queues" />
+    <MESSAGE value="refactors: add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactors: add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

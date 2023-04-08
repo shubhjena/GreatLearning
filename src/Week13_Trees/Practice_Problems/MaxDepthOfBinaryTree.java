@@ -8,7 +8,7 @@ longest path from the root node down to the farthest leaf node.
 public class MaxDepthOfBinaryTree {
     public static int maxDepth(TreeNode root) {
         if(root == null) return 0;
-            //max of left child depth and right child depth + 1 is the defth of node
+            //max of left child depth and right child depth + 1 is the depth of node
         else return Math.max(maxDepth(root.left), maxDepth(root.right))+1;
     }
 

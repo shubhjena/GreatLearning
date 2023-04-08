@@ -11,7 +11,7 @@ public class BinaryTree {
         else root.right = insertTreeNode(root.right, val);
         return root;
     }
-    public TreeNode insertLevelOrder(int[] arr, int i){
+    public TreeNode insertLevelOrder(int[] arr, int i){ //i = element index to be inserted
         TreeNode root = null;
         // Base case for recursion
         if (i < arr.length) {
@@ -23,7 +23,7 @@ public class BinaryTree {
             // insert right child
             root.right = insertLevelOrder(arr, 2 * i + 2);
         }
-        return root;
+        return root; //if i > length then root is null
     }
     public void levelOrderTraversal(TreeNode root){
         Queue<TreeNode> queue = new LinkedList<>();
@@ -51,11 +51,16 @@ class TreeNode {
     TreeNode right;
 
     //constructors
+    @SuppressWarnings("unused")
     TreeNode() {
     }
+
+    @SuppressWarnings("unused")
     TreeNode(int val) {
         this.val = val;
     }
+
+    @SuppressWarnings("unused")
     TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
