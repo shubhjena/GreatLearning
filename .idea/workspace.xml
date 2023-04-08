@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add HashTableDemo to week 11 Hashing">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add JewelsAndStones to week 11 Hashing">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/Hashing/HashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/Hashing/VerifyingAlienDictionary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StepsToMakeArrayNonDecreasing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/StockSpan.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/ValidExpression.java" afterDir="false" />
@@ -115,13 +113,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VerifyingAlienDictionary">
-    <configuration name="CountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.CountingBits" />
+  <component name="RunManager" selected="Application.RecentCounter">
+    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.FirstUniqueCharacterInString" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.HashMapDemo" />
+    <configuration name="IntersectionOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.IntersectionOfArrays" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
@@ -142,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinBitFlipsToConvertNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.MinBitFlipsToConvertNumber" />
+    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.JewelsAndStones" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthMagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.NthMagicNumber" />
+    <configuration name="RecentCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.RecentCounter" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyingAlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.VerifyingAlienDictionary" />
+    <configuration name="UnionOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Hashing.UnionOfArrays" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VerifyingAlienDictionary" />
-        <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="Application.NthMagicNumber" />
-        <item itemvalue="Application.CountingBits" />
-        <item itemvalue="Application.MinBitFlipsToConvertNumber" />
+        <item itemvalue="Application.RecentCounter" />
+        <item itemvalue="Application.FirstUniqueCharacterInString" />
+        <item itemvalue="Application.JewelsAndStones" />
+        <item itemvalue="Application.IntersectionOfArrays" />
+        <item itemvalue="Application.UnionOfArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -199,83 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00096" summary="update SumTree to Trees">
-      <created>1679943585393</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1679943585393</updated>
-    </task>
-    <task id="LOCAL-00097" summary="add inorder traversal to tree implementation">
-      <created>1679950946955</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1679950946955</updated>
-    </task>
-    <task id="LOCAL-00098" summary="add pre-order traversal to tree implementation">
-      <created>1679951257098</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1679951257098</updated>
-    </task>
-    <task id="LOCAL-00099" summary="add DiameterOfBinaryTree to week 13 practice problems">
-      <created>1680027495147</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1680027495147</updated>
-    </task>
-    <task id="LOCAL-00100" summary="add delete Node to binary tree implementation">
-      <created>1680029872652</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1680029872652</updated>
-    </task>
-    <task id="LOCAL-00101" summary="add invert Binary tree to practice problem week 13">
-      <created>1680035504270</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1680035504270</updated>
-    </task>
-    <task id="LOCAL-00102" summary="add binary tree class to practice problems week 13">
-      <created>1680036333029</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1680036333029</updated>
-    </task>
-    <task id="LOCAL-00103" summary="update TreeNode class: TreeNode class declared as package private class separately">
-      <created>1680036430657</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1680036430657</updated>
-    </task>
-    <task id="LOCAL-00104" summary="add SubtreeOfAnotherTree to practice problems week 13">
-      <created>1680039694688</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1680039694689</updated>
-    </task>
-    <task id="LOCAL-00105" summary="update SubtreeOfAnotherTree: add comments to code">
-      <created>1680040137383</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1680040137383</updated>
-    </task>
-    <task id="LOCAL-00106" summary="add RangeSumOfBST to practice problems week 13">
-      <created>1680041909453</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1680041909453</updated>
     </task>
     <task id="LOCAL-00107" summary="update RangeSumOfBST to practice problems week 13">
       <created>1680042417964</created>
@@ -543,7 +464,84 @@
       <option name="project" value="LOCAL" />
       <updated>1680879902612</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="add VerifyingAlienDictionary to week 11 Hashing">
+      <created>1680896876011</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1680896876011</updated>
+    </task>
+    <task id="LOCAL-00146" summary="add HashMapDemo to week 11 Hashing">
+      <created>1680896902798</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1680896902798</updated>
+    </task>
+    <task id="LOCAL-00147" summary="add MyHashMap to week 11 Hashing">
+      <created>1680896962833</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1680896962833</updated>
+    </task>
+    <task id="LOCAL-00148" summary="add MyHashMap to week 11 Hashing">
+      <created>1680896980770</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1680896980770</updated>
+    </task>
+    <task id="LOCAL-00149" summary="add HashMapImplementation to week 11 Hashing">
+      <created>1680950146861</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1680950146862</updated>
+    </task>
+    <task id="LOCAL-00150" summary="add MajorityElement to week 11 Hashing">
+      <created>1680968065958</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1680968065959</updated>
+    </task>
+    <task id="LOCAL-00151" summary="update MajorityElement to week 11 Hashing">
+      <created>1680968212726</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1680968212726</updated>
+    </task>
+    <task id="LOCAL-00152" summary="add UnionOfArrays to week 11 Hashing">
+      <created>1680968580582</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1680968580583</updated>
+    </task>
+    <task id="LOCAL-00153" summary="add IntersectionOfArrays to week 11 Hashing">
+      <created>1680969869427</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1680969869427</updated>
+    </task>
+    <task id="LOCAL-00154" summary="add IntersectionOfArrays to week 11 Hashing">
+      <created>1680969886901</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1680969886901</updated>
+    </task>
+    <task id="LOCAL-00155" summary="add JewelsAndStones to week 11 Hashing">
+      <created>1680978684986</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1680978684986</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,15 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add MergeTwoBinaryTrees to practice problems week 13" />
-    <MESSAGE value="add MaxDepthOfBinaryTree" />
-    <MESSAGE value="add BinaryTreePaths to practice problems" />
-    <MESSAGE value="add Binary tree to week 14" />
-    <MESSAGE value="add InsertIntoBST to week 14" />
-    <MESSAGE value="add min Element of BST to Week 14" />
-    <MESSAGE value="add search BST to Week 14" />
-    <MESSAGE value="add DeleteNodeInBST to week 14" />
-    <MESSAGE value="update DeleteNodeInBST in week 14" />
     <MESSAGE value="add binary tree to week 14 practice problems" />
     <MESSAGE value="add ValidateBST to week 14 practice problems" />
     <MESSAGE value="refactor ValidateBST to week 14 practice problems" />
@@ -584,7 +573,16 @@
     <MESSAGE value="add NthMagicNumber to week 11 bit manipulation" />
     <MESSAGE value="add HashSetDemo to week 11 Hashing" />
     <MESSAGE value="add HashTableDemo to week 11 Hashing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HashTableDemo to week 11 Hashing" />
+    <MESSAGE value="add VerifyingAlienDictionary to week 11 Hashing" />
+    <MESSAGE value="add HashMapDemo to week 11 Hashing" />
+    <MESSAGE value="add MyHashMap to week 11 Hashing" />
+    <MESSAGE value="add HashMapImplementation to week 11 Hashing" />
+    <MESSAGE value="add MajorityElement to week 11 Hashing" />
+    <MESSAGE value="update MajorityElement to week 11 Hashing" />
+    <MESSAGE value="add UnionOfArrays to week 11 Hashing" />
+    <MESSAGE value="add IntersectionOfArrays to week 11 Hashing" />
+    <MESSAGE value="add JewelsAndStones to week 11 Hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JewelsAndStones to week 11 Hashing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
