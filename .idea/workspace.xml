@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add KLevelNodes to week 13">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add BSTTriplets to week 14 binary search tree practice problems">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/StackCoins.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
@@ -110,7 +111,20 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewClass2">
+  <component name="RunManager" selected="Application.StackCoins">
+    <configuration name="BinarySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.BinarySorting" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KLevelNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week13_Trees.KLevelNodes" />
       <module name="GreatLearning" />
@@ -150,25 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockSpan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.StockSpan" />
+    <configuration name="StackCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.StackCoins" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.ValidExpression" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
+          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackCoins" />
+        <item itemvalue="Application.BinarySorting" />
         <item itemvalue="Application.NewClass2" />
         <item itemvalue="Application.NewClass" />
         <item itemvalue="Application.KLevelNodes" />
-        <item itemvalue="Application.ValidExpression" />
-        <item itemvalue="Application.StockSpan" />
       </list>
     </recent_temporary>
   </component>
@@ -194,27 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00113" summary="fix levelOrderTraversal">
-      <created>1680293584129</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1680293584129</updated>
-    </task>
-    <task id="LOCAL-00114" summary="add SortedArrayToHeightBalancedBST to practice problems">
-      <created>1680293698223</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1680293698223</updated>
-    </task>
-    <task id="LOCAL-00115" summary="add MergeTwoBinaryTrees to practice problems week 13">
-      <created>1680295562644</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1680295562644</updated>
     </task>
     <task id="LOCAL-00116" summary="add MaxDepthOfBinaryTree">
       <created>1680300817616</created>
@@ -538,7 +518,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681023333733</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="add KLevelNodes to week 13">
+      <created>1681235910727</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1681235910727</updated>
+    </task>
+    <task id="LOCAL-00163" summary="add BinarySorting to week 11 bit manipulation">
+      <created>1681236827109</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1681236827109</updated>
+    </task>
+    <task id="LOCAL-00164" summary="add BSTTriplets to week 14 binary search tree practice problems">
+      <created>1681236892426</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1681236892426</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -554,8 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add BitManipulation basic operations to week 11 bit manipulation package" />
-    <MESSAGE value="add count of set bits to week 11 bit manipulation" />
     <MESSAGE value="add FindPosOfSetBit to week 11 bit manipulation" />
     <MESSAGE value="add NonRepeatingNumbers to week 11 bit manipulation" />
     <MESSAGE value="add PowerOf2 to week 11 bit manipulation" />
@@ -579,7 +578,9 @@
     <MESSAGE value="add ValidExpression to week 12 Stacks &amp; Queues" />
     <MESSAGE value="refactors: add comments" />
     <MESSAGE value="add KLevelNodes to week 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="add KLevelNodes to week 13" />
+    <MESSAGE value="add BinarySorting to week 11 bit manipulation" />
+    <MESSAGE value="add BSTTriplets to week 14 binary search tree practice problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BSTTriplets to week 14 binary search tree practice problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
