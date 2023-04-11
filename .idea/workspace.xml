@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactors: add comments">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add KLevelNodes to week 13">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week11_Hashing_and_Bit_manipulation/DetectSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week13_Trees/KLevelNodes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/BinaryTreeImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week13_Trees/Practice_Problems/MaxDepthOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +110,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidExpression">
-    <configuration name="FirstUniqueCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.FirstUniqueCharacterInString" />
+  <component name="RunManager" selected="Application.NewClass2">
+    <configuration name="KLevelNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week13_Trees.KLevelNodes" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
+          <option name="PATTERN" value="Week13_Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecentCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.RecentCounter" />
+    <configuration name="NewClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week14_Binary_Search_Tree.NewClass" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
+          <option name="PATTERN" value="Week14_Binary_Search_Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StepsToMakeArrayNonDecreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.StepsToMakeArrayNonDecreasing" />
+    <configuration name="NewClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week14_Binary_Search_Tree.NewClass2" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.*" />
+          <option name="PATTERN" value="Week14_Binary_Search_Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewClass2" />
+        <item itemvalue="Application.NewClass" />
+        <item itemvalue="Application.KLevelNodes" />
         <item itemvalue="Application.ValidExpression" />
         <item itemvalue="Application.StockSpan" />
-        <item itemvalue="Application.StepsToMakeArrayNonDecreasing" />
-        <item itemvalue="Application.RecentCounter" />
-        <item itemvalue="Application.FirstUniqueCharacterInString" />
       </list>
     </recent_temporary>
   </component>
@@ -197,20 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00111" summary="add symmetric tree to practice problems week 13">
-      <created>1680288190042</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1680288190058</updated>
-    </task>
-    <task id="LOCAL-00112" summary="add symmetric tree to practice problems week 13">
-      <created>1680288240506</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1680288240506</updated>
     </task>
     <task id="LOCAL-00113" summary="fix levelOrderTraversal">
       <created>1680293584129</created>
@@ -541,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680988959700</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="refactors: add comments">
+      <created>1680992869089</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1680992869089</updated>
+    </task>
+    <task id="LOCAL-00161" summary="add KLevelNodes to week 13">
+      <created>1681023333732</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1681023333733</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update palindromic partition" />
     <MESSAGE value="add BitManipulation basic operations to week 11 bit manipulation package" />
     <MESSAGE value="add count of set bits to week 11 bit manipulation" />
     <MESSAGE value="add FindPosOfSetBit to week 11 bit manipulation" />
@@ -582,7 +578,8 @@
     <MESSAGE value="add StockSpan to week 12 Stacks &amp; Queues" />
     <MESSAGE value="add ValidExpression to week 12 Stacks &amp; Queues" />
     <MESSAGE value="refactors: add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactors: add comments" />
+    <MESSAGE value="add KLevelNodes to week 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="add KLevelNodes to week 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
