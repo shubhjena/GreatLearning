@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add BSTTriplets to week 14 binary search tree practice problems">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add StackCoins to week 12 Stack &amp; Queues practice problems">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12_Stacks_and_Queues/Practice_Problems/StackCoins.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,20 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00116" summary="add MaxDepthOfBinaryTree">
-      <created>1680300817616</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1680300817616</updated>
-    </task>
-    <task id="LOCAL-00117" summary="add BinaryTreePaths to practice problems">
-      <created>1680300883200</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1680300883200</updated>
     </task>
     <task id="LOCAL-00118" summary="add Binary tree to week 14">
       <created>1680374120753</created>
@@ -539,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681236892426</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="add StackCoins to week 12 Stack &amp; Queues practice problems">
+      <created>1681237423873</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1681237423873</updated>
+    </task>
+    <task id="LOCAL-00166" summary="add StackCoins to week 12 Stack &amp; Queues practice problems">
+      <created>1681237436427</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1681237436427</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add FindPosOfSetBit to week 11 bit manipulation" />
     <MESSAGE value="add NonRepeatingNumbers to week 11 bit manipulation" />
     <MESSAGE value="add PowerOf2 to week 11 bit manipulation" />
     <MESSAGE value="add MinBitFlipsToConvertNumber to week 11 bit manipulation" />
@@ -580,7 +577,8 @@
     <MESSAGE value="add KLevelNodes to week 13" />
     <MESSAGE value="add BinarySorting to week 11 bit manipulation" />
     <MESSAGE value="add BSTTriplets to week 14 binary search tree practice problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BSTTriplets to week 14 binary search tree practice problems" />
+    <MESSAGE value="add StackCoins to week 12 Stack &amp; Queues practice problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="add StackCoins to week 12 Stack &amp; Queues practice problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
