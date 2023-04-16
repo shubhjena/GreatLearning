@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add MaxHeap">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add SeatReservationManager to week 15 heap">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week15_Heaps/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week15_Heaps/MaximumScoreFromRemovingStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week15_Heaps/ReduceArraySizeToTheHalf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week15_Heaps/LongestHappyString.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -114,13 +112,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumScoreFromRemovingStones">
-    <configuration name="BinarySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.BinarySorting" />
+  <component name="RunManager" selected="Application.LongestHappyString">
+    <configuration name="CarPooling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week15_Heaps.CarPooling" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week11_Hashing_and_Bit_manipulation.Bit_Manipulation.*" />
+          <option name="PATTERN" value="Week15_Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +128,19 @@
     </configuration>
     <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week15_Heaps.KthLargestElement" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week15_Heaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestHappyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week15_Heaps.LongestHappyString" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
@@ -154,25 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week14_Binary_Search_Tree.NewClass2" />
+    <configuration name="RemoveStonesToMinimizeTheTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week15_Heaps.RemoveStonesToMinimizeTheTotal" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week14_Binary_Search_Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12_Stacks_and_Queues.Practice_Problems.StackCoins" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week12_Stacks_and_Queues.Practice_Problems.*" />
+          <option name="PATTERN" value="Week15_Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestHappyString" />
+        <item itemvalue="Application.CarPooling" />
+        <item itemvalue="Application.RemoveStonesToMinimizeTheTotal" />
         <item itemvalue="Application.MaximumScoreFromRemovingStones" />
         <item itemvalue="Application.KthLargestElement" />
-        <item itemvalue="Application.StackCoins" />
-        <item itemvalue="Application.BinarySorting" />
-        <item itemvalue="Application.NewClass2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,55 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00122" summary="add DeleteNodeInBST to week 14">
-      <created>1680374958520</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1680374958520</updated>
-    </task>
-    <task id="LOCAL-00123" summary="update DeleteNodeInBST in week 14">
-      <created>1680375153687</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1680375153687</updated>
-    </task>
-    <task id="LOCAL-00124" summary="add binary tree to week 14 practice problems">
-      <created>1680379259540</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1680379259540</updated>
-    </task>
-    <task id="LOCAL-00125" summary="add ValidateBST to week 14 practice problems">
-      <created>1680379297827</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1680379297827</updated>
-    </task>
-    <task id="LOCAL-00126" summary="refactor ValidateBST to week 14 practice problems">
-      <created>1680379444916</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1680379444916</updated>
-    </task>
-    <task id="LOCAL-00127" summary="add LCA to week 14">
-      <created>1680545686740</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1680545686740</updated>
-    </task>
-    <task id="LOCAL-00128" summary="add LCA to week 14">
-      <created>1680545699597</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1680545699597</updated>
     </task>
     <task id="LOCAL-00129" summary="add LCA to week 14">
       <created>1680557046729</created>
@@ -542,7 +491,56 @@
       <option name="project" value="LOCAL" />
       <updated>1681497000994</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="add KthLargestElement to heap">
+      <created>1681581243684</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1681581243684</updated>
+    </task>
+    <task id="LOCAL-00172" summary="add MaximumScoreFromRemovingStones to heap">
+      <created>1681581285467</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1681581285467</updated>
+    </task>
+    <task id="LOCAL-00173" summary="add ReduceArraySizeToTheHalf to heap">
+      <created>1681581309851</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1681581309851</updated>
+    </task>
+    <task id="LOCAL-00174" summary="add ReduceArraySizeToTheHalf to heap">
+      <created>1681581319416</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1681581319416</updated>
+    </task>
+    <task id="LOCAL-00175" summary="add CarPooling to week 15 heap">
+      <created>1681659734614</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1681659734614</updated>
+    </task>
+    <task id="LOCAL-00176" summary="add RemoveStonesToMinimizeTheTotal to week 15 heap">
+      <created>1681659780479</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1681659780479</updated>
+    </task>
+    <task id="LOCAL-00177" summary="add SeatReservationManager to week 15 heap">
+      <created>1681659921718</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1681659921718</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -558,12 +556,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add PowerOf2 to week 11 bit manipulation" />
-    <MESSAGE value="add MinBitFlipsToConvertNumber to week 11 bit manipulation" />
-    <MESSAGE value="add CountingBits to week 11 bit manipulation" />
-    <MESSAGE value="refactor: rename week 1 to week 5 packages" />
-    <MESSAGE value="add NthMagicNumber to week 11 bit manipulation" />
-    <MESSAGE value="add HashSetDemo to week 11 Hashing" />
     <MESSAGE value="add HashTableDemo to week 11 Hashing" />
     <MESSAGE value="add VerifyingAlienDictionary to week 11 Hashing" />
     <MESSAGE value="add HashMapDemo to week 11 Hashing" />
@@ -583,7 +575,13 @@
     <MESSAGE value="add BSTTriplets to week 14 binary search tree practice problems" />
     <MESSAGE value="add StackCoins to week 12 Stack &amp; Queues practice problems" />
     <MESSAGE value="add MaxHeap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MaxHeap" />
+    <MESSAGE value="add KthLargestElement to heap" />
+    <MESSAGE value="add MaximumScoreFromRemovingStones to heap" />
+    <MESSAGE value="add ReduceArraySizeToTheHalf to heap" />
+    <MESSAGE value="add CarPooling to week 15 heap" />
+    <MESSAGE value="add RemoveStonesToMinimizeTheTotal to week 15 heap" />
+    <MESSAGE value="add SeatReservationManager to week 15 heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SeatReservationManager to week 15 heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
