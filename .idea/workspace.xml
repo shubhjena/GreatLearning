@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add SeatReservationManager to week 15 heap">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="update KClosestPointsToOrigin to week 15 heap practice problems">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week15_Heaps/LongestHappyString.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -112,7 +111,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestHappyString">
+  <component name="RunManager" selected="Application.KClosestPointsToOrigin">
     <configuration name="CarPooling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week15_Heaps.CarPooling" />
       <module name="GreatLearning" />
@@ -126,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week15_Heaps.KthLargestElement" />
+    <configuration name="KClosestPointsToOrigin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week15_Heaps.Practice_Problems.KClosestPointsToOrigin" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week15_Heaps.*" />
+          <option name="PATTERN" value="Week15_Heaps.Practice_Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KClosestPointsToOrigin" />
         <item itemvalue="Application.LongestHappyString" />
         <item itemvalue="Application.CarPooling" />
         <item itemvalue="Application.RemoveStonesToMinimizeTheTotal" />
         <item itemvalue="Application.MaximumScoreFromRemovingStones" />
-        <item itemvalue="Application.KthLargestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -196,34 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00129" summary="add LCA to week 14">
-      <created>1680557046729</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1680557046729</updated>
-    </task>
-    <task id="LOCAL-00130" summary="add LCA to week 14">
-      <created>1680632372292</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1680632372292</updated>
-    </task>
-    <task id="LOCAL-00131" summary="update palindromic partition">
-      <created>1680717864255</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1680717864255</updated>
-    </task>
-    <task id="LOCAL-00132" summary="add BitManipulation basic operations to week 11 bit manipulation package">
-      <created>1680798942618</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1680798942619</updated>
     </task>
     <task id="LOCAL-00133" summary="add count of set bits to week 11 bit manipulation">
       <created>1680798987837</created>
@@ -540,7 +511,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681659921718</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="add LongestHappyString to week 15 heap">
+      <created>1681660074484</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1681660074484</updated>
+    </task>
+    <task id="LOCAL-00179" summary="add LongestHappyString to week 15 heap">
+      <created>1681660086673</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1681660086673</updated>
+    </task>
+    <task id="LOCAL-00180" summary="add KClosestPointsToOrigin to week 15 heap practice problems">
+      <created>1681672282964</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1681672282965</updated>
+    </task>
+    <task id="LOCAL-00181" summary="update KClosestPointsToOrigin to week 15 heap practice problems">
+      <created>1681672354507</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1681672354507</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,9 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add HashTableDemo to week 11 Hashing" />
-    <MESSAGE value="add VerifyingAlienDictionary to week 11 Hashing" />
-    <MESSAGE value="add HashMapDemo to week 11 Hashing" />
     <MESSAGE value="add MyHashMap to week 11 Hashing" />
     <MESSAGE value="add HashMapImplementation to week 11 Hashing" />
     <MESSAGE value="add MajorityElement to week 11 Hashing" />
@@ -581,7 +577,10 @@
     <MESSAGE value="add CarPooling to week 15 heap" />
     <MESSAGE value="add RemoveStonesToMinimizeTheTotal to week 15 heap" />
     <MESSAGE value="add SeatReservationManager to week 15 heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SeatReservationManager to week 15 heap" />
+    <MESSAGE value="add LongestHappyString to week 15 heap" />
+    <MESSAGE value="add KClosestPointsToOrigin to week 15 heap practice problems" />
+    <MESSAGE value="update KClosestPointsToOrigin to week 15 heap practice problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="update KClosestPointsToOrigin to week 15 heap practice problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
