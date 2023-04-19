@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add RabinKarpAlgorithm to week 10 Strings">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/BagOfTokens.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -112,26 +111,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BagOfTokens">
+  <component name="RunManager" selected="Application.MinimumSumOfDigitAfterSplitting">
     <configuration name="BagOfTokens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week16_Greedy.BagOfTokens" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Week16_Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarPooling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week15_Heaps.CarPooling" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week15_Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumSumOfDigitAfterSplitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.Practice_Problems.MinimumSumOfDigitAfterSplitting" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week16_Greedy.Practice_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSumOfDigitAfterSplitting" />
         <item itemvalue="Application.BagOfTokens" />
         <item itemvalue="Application.DestroyingAsteroids" />
         <item itemvalue="Application.KClosestPointsToOrigin" />
         <item itemvalue="Application.LongestHappyString" />
-        <item itemvalue="Application.CarPooling" />
       </list>
     </recent_temporary>
   </component>
@@ -196,27 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00136" summary="add PowerOf2 to week 11 bit manipulation">
-      <created>1680799090175</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1680799090175</updated>
-    </task>
-    <task id="LOCAL-00137" summary="add MinBitFlipsToConvertNumber to week 11 bit manipulation">
-      <created>1680807546748</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1680807546748</updated>
-    </task>
-    <task id="LOCAL-00138" summary="add MinBitFlipsToConvertNumber to week 11 bit manipulation">
-      <created>1680807561664</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1680807561664</updated>
     </task>
     <task id="LOCAL-00139" summary="add CountingBits to week 11 bit manipulation">
       <created>1680815113096</created>
@@ -540,7 +518,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681922486456</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="add bag of tokens to Week 16 greedy">
+      <created>1681926145932</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1681926145932</updated>
+    </task>
+    <task id="LOCAL-00186" summary="add bag of tokens to Week 16 greedy">
+      <created>1681926156593</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1681926156593</updated>
+    </task>
+    <task id="LOCAL-00187" summary="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems">
+      <created>1681928127651</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928127651</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,8 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add MajorityElement to week 11 Hashing" />
-    <MESSAGE value="update MajorityElement to week 11 Hashing" />
     <MESSAGE value="add UnionOfArrays to week 11 Hashing" />
     <MESSAGE value="add IntersectionOfArrays to week 11 Hashing" />
     <MESSAGE value="add JewelsAndStones to week 11 Hashing" />
@@ -581,7 +578,9 @@
     <MESSAGE value="update KClosestPointsToOrigin to week 15 heap practice problems" />
     <MESSAGE value="add DestroyingAsteroids to week 16 greedy" />
     <MESSAGE value="add RabinKarpAlgorithm to week 10 Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add RabinKarpAlgorithm to week 10 Strings" />
+    <MESSAGE value="add bag of tokens to Week 16 greedy" />
+    <MESSAGE value="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
