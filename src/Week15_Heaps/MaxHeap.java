@@ -1,9 +1,9 @@
 package Week15_Heaps;
 
 public class MaxHeap {
-    private int[] heap; // array
+    private final int[] heap; // array
     private int size;
-    private int maxsize;
+    private final int maxsize;
 
     public MaxHeap(int size) {
         this.maxsize = size;
@@ -28,9 +28,34 @@ public class MaxHeap {
         }
 
     }
+    void insert(int Key)
+    {
+        // Increase the size of Heap by 1
+        size++;
+        int i = size-1;
+        // Insert the element at end of Heap
+        heap[i] = Key;
+
+        // Heapify the new node following a Bottom-up approach
+        while (i>0 && heap[parent(i)] < heap[i]){
+            swap(i,parent(i));
+            i = parent(i);
+        }
+
+    }
+    private void swap(int i, int j){
+        int temp  = heap[i];
+        heap[i] = heap[j];
+        heap[j] = temp;
+    }
+    private int parent(int i) {
+        return (i-1)/2;
+    }
 
     public static void main(String[] args) {
         MaxHeap obj = new MaxHeap(7);
-
+        int num = 6;
+        obj.heapify(5);
+        obj.insert(num);
     }
 }
