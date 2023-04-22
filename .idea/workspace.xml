@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add ContainerWithMostWater to week 16 greedy">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add Combination to week 16">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/AdvantageShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/BackTracking/BitwiseORsOfSubArrays.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -111,7 +111,7 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdvantageShuffle">
+  <component name="RunManager" selected="Application.Combination">
     <configuration name="AdvantageShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week16_Greedy.AdvantageShuffle" />
       <module name="GreatLearning" />
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.ContainerWithMostWater" />
+    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.BackTracking.Combination" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week16_Greedy.*" />
+          <option name="PATTERN" value="Week16_Greedy.BackTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DestroyingAsteroids" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.DestroyingAsteroids" />
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.ContainerWithMostWater" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Combination" />
         <item itemvalue="Application.AdvantageShuffle" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.MinimumSumOfDigitAfterSplitting" />
         <item itemvalue="Application.BagOfTokens" />
-        <item itemvalue="Application.DestroyingAsteroids" />
       </list>
     </recent_temporary>
   </component>
@@ -195,27 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00142" summary="add NthMagicNumber to week 11 bit manipulation">
-      <created>1680853071256</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1680853071257</updated>
-    </task>
-    <task id="LOCAL-00143" summary="add HashSetDemo to week 11 Hashing">
-      <created>1680869650060</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1680869650060</updated>
-    </task>
-    <task id="LOCAL-00144" summary="add HashTableDemo to week 11 Hashing">
-      <created>1680879902612</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1680879902612</updated>
     </task>
     <task id="LOCAL-00145" summary="add VerifyingAlienDictionary to week 11 Hashing">
       <created>1680896876011</created>
@@ -539,7 +518,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682001681438</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="add AdvantageShuffle to week 16 greedy">
+      <created>1682012289784</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1682012289784</updated>
+    </task>
+    <task id="LOCAL-00192" summary="add AdvantageShuffle to week 16 greedy">
+      <created>1682017469906</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1682017469906</updated>
+    </task>
+    <task id="LOCAL-00193" summary="add Combination to week 16">
+      <created>1682187743287</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1682187743287</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,8 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add JewelsAndStones to week 11 Hashing" />
-    <MESSAGE value="add StepsToMakeArrayNonDecreasing to week 12 Stacks &amp; Queues" />
     <MESSAGE value="add StockSpan to week 12 Stacks &amp; Queues" />
     <MESSAGE value="add ValidExpression to week 12 Stacks &amp; Queues" />
     <MESSAGE value="refactors: add comments" />
@@ -580,7 +578,9 @@
     <MESSAGE value="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems" />
     <MESSAGE value="update MaxHeap week 15 Heap" />
     <MESSAGE value="add ContainerWithMostWater to week 16 greedy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ContainerWithMostWater to week 16 greedy" />
+    <MESSAGE value="add AdvantageShuffle to week 16 greedy" />
+    <MESSAGE value="add Combination to week 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Combination to week 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
