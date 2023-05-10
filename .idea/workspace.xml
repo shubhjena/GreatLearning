@@ -195,13 +195,6 @@
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
     </task>
-    <task id="LOCAL-00149" summary="add HashMapImplementation to week 11 Hashing">
-      <created>1680950146861</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1680950146862</updated>
-    </task>
     <task id="LOCAL-00150" summary="add MajorityElement to week 11 Hashing">
       <created>1680968065958</created>
       <option name="number" value="00150" />
@@ -538,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682874545424</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="add Combination to week 16">
+      <created>1683567618062</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1683567618062</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
