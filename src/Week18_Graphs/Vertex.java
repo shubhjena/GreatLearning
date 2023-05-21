@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Vertex {
     private String name;
+    private boolean isVisited;
     private List<Vertex> adjacencyList;
 
     public Vertex(String name){
@@ -36,6 +37,18 @@ public class Vertex {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public boolean isVisited() {
+        return isVisited;
+    }
+
+    public void setVisited(boolean visited) {
+        isVisited = visited;
+    }
+
+    public List<Vertex> getAdjacencyList() {
+        return adjacencyList;
     }
 
     @Override
