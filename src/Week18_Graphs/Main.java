@@ -19,5 +19,7 @@ public class Main {
         graph.addNeighbour(v3,v4);
 
         graph.printAllEdges();
+
+        BFS.bfsTraversal(v1);
     }
 }
