@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add main to week 18">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="update vertex to week 18">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/BackTracking/BitwiseORsOfSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week18_Graphs/BFS.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week18_Graphs/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week18_Graphs/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,34 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00155" summary="add JewelsAndStones to week 11 Hashing">
-      <created>1680978684986</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1680978684986</updated>
-    </task>
-    <task id="LOCAL-00156" summary="add JewelsAndStones to week 11 Hashing">
-      <created>1680978720559</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1680978720559</updated>
-    </task>
-    <task id="LOCAL-00157" summary="add StepsToMakeArrayNonDecreasing to week 12 Stacks &amp; Queues">
-      <created>1680981832048</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1680981832048</updated>
-    </task>
-    <task id="LOCAL-00158" summary="add StockSpan to week 12 Stacks &amp; Queues">
-      <created>1680984794424</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1680984794424</updated>
     </task>
     <task id="LOCAL-00159" summary="add ValidExpression to week 12 Stacks &amp; Queues">
       <created>1680988959700</created>
@@ -541,7 +511,35 @@
       <option name="project" value="LOCAL" />
       <updated>1684520906226</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="add BFS to week 18">
+      <created>1684693574256</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1684693574257</updated>
+    </task>
+    <task id="LOCAL-00205" summary="update main to week 18">
+      <created>1684693631390</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1684693631390</updated>
+    </task>
+    <task id="LOCAL-00206" summary="update vertex to week 18">
+      <created>1684693663140</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1684693663140</updated>
+    </task>
+    <task id="LOCAL-00207" summary="update vertex to week 18">
+      <created>1684693677745</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1684693677745</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,9 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add BinarySorting to week 11 bit manipulation" />
-    <MESSAGE value="add BSTTriplets to week 14 binary search tree practice problems" />
-    <MESSAGE value="add StackCoins to week 12 Stack &amp; Queues practice problems" />
     <MESSAGE value="add MaxHeap" />
     <MESSAGE value="add KthLargestElement to heap" />
     <MESSAGE value="add MaximumScoreFromRemovingStones to heap" />
@@ -582,7 +577,10 @@
     <MESSAGE value="add AdjacencyListGraph to week 18" />
     <MESSAGE value="add vertex to week 18" />
     <MESSAGE value="add main to week 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main to week 18" />
+    <MESSAGE value="add BFS to week 18" />
+    <MESSAGE value="update main to week 18" />
+    <MESSAGE value="update vertex to week 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vertex to week 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
