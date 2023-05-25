@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="update vertex to week 18">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
@@ -195,27 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00159" summary="add ValidExpression to week 12 Stacks &amp; Queues">
-      <created>1680988959700</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1680988959700</updated>
-    </task>
-    <task id="LOCAL-00160" summary="refactors: add comments">
-      <created>1680992869089</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1680992869089</updated>
-    </task>
-    <task id="LOCAL-00161" summary="add KLevelNodes to week 13">
-      <created>1681023333732</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1681023333733</updated>
     </task>
     <task id="LOCAL-00162" summary="add KLevelNodes to week 13">
       <created>1681235910727</created>
@@ -539,7 +518,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684693677745</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="update vertex to week 18">
+      <created>1684776215920</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1684776215923</updated>
+    </task>
+    <task id="LOCAL-00209" summary="add DFSTraversal to week 18">
+      <created>1684782660742</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1684782660742</updated>
+    </task>
+    <task id="LOCAL-00210" summary="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class">
+      <created>1684783868940</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1684783868940</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,8 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add MaxHeap" />
-    <MESSAGE value="add KthLargestElement to heap" />
     <MESSAGE value="add MaximumScoreFromRemovingStones to heap" />
     <MESSAGE value="add ReduceArraySizeToTheHalf to heap" />
     <MESSAGE value="add CarPooling to week 15 heap" />
@@ -580,7 +578,9 @@
     <MESSAGE value="add BFS to week 18" />
     <MESSAGE value="update main to week 18" />
     <MESSAGE value="update vertex to week 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="update vertex to week 18" />
+    <MESSAGE value="add DFSTraversal to week 18" />
+    <MESSAGE value="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
