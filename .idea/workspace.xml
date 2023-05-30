@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add DisjointUnionSets to week 18">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
@@ -195,20 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00162" summary="add KLevelNodes to week 13">
-      <created>1681235910727</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1681235910727</updated>
-    </task>
-    <task id="LOCAL-00163" summary="add BinarySorting to week 11 bit manipulation">
-      <created>1681236827109</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1681236827109</updated>
     </task>
     <task id="LOCAL-00164" summary="add BSTTriplets to week 14 binary search tree practice problems">
       <created>1681236892426</created>
@@ -539,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684783868940</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class">
+      <created>1685036537013</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1685036537014</updated>
+    </task>
+    <task id="LOCAL-00212" summary="add DisjointUnionSets to week 18">
+      <created>1685166478059</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1685166478059</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add MaximumScoreFromRemovingStones to heap" />
     <MESSAGE value="add ReduceArraySizeToTheHalf to heap" />
     <MESSAGE value="add CarPooling to week 15 heap" />
     <MESSAGE value="add RemoveStonesToMinimizeTheTotal to week 15 heap" />
@@ -580,7 +579,8 @@
     <MESSAGE value="update vertex to week 18" />
     <MESSAGE value="add DFSTraversal to week 18" />
     <MESSAGE value="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class" />
+    <MESSAGE value="add DisjointUnionSets to week 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DisjointUnionSets to week 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
