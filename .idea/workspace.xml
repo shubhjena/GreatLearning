@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add DisjointUnionSets to week 18">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add CoinChange to Dynamic Programming week 17">
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/BackTracking/BitwiseORsOfSubArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week18_Graphs/PrimAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -30,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -111,13 +113,26 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.BinomialCoefficient">
     <configuration name="AdvantageShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week16_Greedy.AdvantageShuffle" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Week16_Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinomialCoefficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week17_Dynamic_Programming.BinomialCoefficient" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week17_Dynamic_Programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,26 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSumOfDigitAfterSplitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.Practice_Problems.MinimumSumOfDigitAfterSplitting" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week16_Greedy.Practice_Problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinomialCoefficient" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Combination" />
         <item itemvalue="Application.AdvantageShuffle" />
         <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.MinimumSumOfDigitAfterSplitting" />
       </list>
     </recent_temporary>
   </component>
@@ -195,34 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00164" summary="add BSTTriplets to week 14 binary search tree practice problems">
-      <created>1681236892426</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1681236892426</updated>
-    </task>
-    <task id="LOCAL-00165" summary="add StackCoins to week 12 Stack &amp; Queues practice problems">
-      <created>1681237423873</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1681237423873</updated>
-    </task>
-    <task id="LOCAL-00166" summary="add StackCoins to week 12 Stack &amp; Queues practice problems">
-      <created>1681237436427</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1681237436427</updated>
-    </task>
-    <task id="LOCAL-00167" summary="add StackCoins to week 12 Stack &amp; Queues practice problems">
-      <created>1681323487486</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1681323487486</updated>
     </task>
     <task id="LOCAL-00168" summary="add MaxHeap">
       <created>1681403363560</created>
@@ -539,7 +513,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685166478059</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="create week17">
+      <created>1685470052904</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1685470052904</updated>
+    </task>
+    <task id="LOCAL-00214" summary="add BellNumber to DP">
+      <created>1685471148914</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1685471148914</updated>
+    </task>
+    <task id="LOCAL-00215" summary="add BinomialCoefficient to Dynamic Programming week 17">
+      <created>1685475715715</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1685475715715</updated>
+    </task>
+    <task id="LOCAL-00216" summary="add CoinChange to Dynamic Programming week 17">
+      <created>1685556635454</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1685556635454</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,10 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add ReduceArraySizeToTheHalf to heap" />
-    <MESSAGE value="add CarPooling to week 15 heap" />
-    <MESSAGE value="add RemoveStonesToMinimizeTheTotal to week 15 heap" />
-    <MESSAGE value="add SeatReservationManager to week 15 heap" />
     <MESSAGE value="add LongestHappyString to week 15 heap" />
     <MESSAGE value="add KClosestPointsToOrigin to week 15 heap practice problems" />
     <MESSAGE value="update KClosestPointsToOrigin to week 15 heap practice problems" />
@@ -580,7 +578,11 @@
     <MESSAGE value="add DFSTraversal to week 18" />
     <MESSAGE value="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class" />
     <MESSAGE value="add DisjointUnionSets to week 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DisjointUnionSets to week 18" />
+    <MESSAGE value="create week17" />
+    <MESSAGE value="add BellNumber to DP" />
+    <MESSAGE value="add BinomialCoefficient to Dynamic Programming week 17" />
+    <MESSAGE value="add CoinChange to Dynamic Programming week 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CoinChange to Dynamic Programming week 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
