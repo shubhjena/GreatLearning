@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add CoinChange to Dynamic Programming week 17">
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactor: add problem description to ReduceArraySizeToTheHalf in heaps">
+      <change afterPath="$PROJECT_DIR$/src/Rough1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rough2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/BackTracking/BitwiseORsOfSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week18_Graphs/PrimAlgorithm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -59,34 +60,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Week14_Binary_Search_Tree/Practice_Problems&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last.edited.regexp": "gj18cq8476",
+    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Week14_Binary_Search_Tree/Practice_Problems",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Week2.Lab_bankManagementTool.dao" />
@@ -197,41 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00168" summary="add MaxHeap">
-      <created>1681403363560</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1681403363560</updated>
-    </task>
-    <task id="LOCAL-00169" summary="add MaxHeap">
-      <created>1681496976048</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1681496976048</updated>
-    </task>
-    <task id="LOCAL-00170" summary="add MaxHeap">
-      <created>1681497000994</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1681497000994</updated>
-    </task>
-    <task id="LOCAL-00171" summary="add KthLargestElement to heap">
-      <created>1681581243684</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1681581243684</updated>
-    </task>
-    <task id="LOCAL-00172" summary="add MaximumScoreFromRemovingStones to heap">
-      <created>1681581285467</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1681581285467</updated>
     </task>
     <task id="LOCAL-00173" summary="add ReduceArraySizeToTheHalf to heap">
       <created>1681581309851</created>
@@ -541,7 +507,42 @@
       <option name="project" value="LOCAL" />
       <updated>1685556635454</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="add CoinChange to Dynamic Programming week 17">
+      <created>1685816249827</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1685816249827</updated>
+    </task>
+    <task id="LOCAL-00218" summary="add PrimAlgorithm to graphs">
+      <created>1685822621468</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1685822621468</updated>
+    </task>
+    <task id="LOCAL-00219" summary="add DijkstraAlgorithm to graphs">
+      <created>1685824484476</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1685824484476</updated>
+    </task>
+    <task id="LOCAL-00220" summary="refactor: add problem description to LongestHappyString in heaps">
+      <created>1685874492194</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1685874492195</updated>
+    </task>
+    <task id="LOCAL-00221" summary="refactor: add problem description to ReduceArraySizeToTheHalf in heaps">
+      <created>1685874837644</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1685874837644</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,10 +558,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add LongestHappyString to week 15 heap" />
-    <MESSAGE value="add KClosestPointsToOrigin to week 15 heap practice problems" />
-    <MESSAGE value="update KClosestPointsToOrigin to week 15 heap practice problems" />
-    <MESSAGE value="add DestroyingAsteroids to week 16 greedy" />
     <MESSAGE value="add RabinKarpAlgorithm to week 10 Strings" />
     <MESSAGE value="add bag of tokens to Week 16 greedy" />
     <MESSAGE value="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems" />
@@ -582,7 +579,11 @@
     <MESSAGE value="add BellNumber to DP" />
     <MESSAGE value="add BinomialCoefficient to Dynamic Programming week 17" />
     <MESSAGE value="add CoinChange to Dynamic Programming week 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CoinChange to Dynamic Programming week 17" />
+    <MESSAGE value="add PrimAlgorithm to graphs" />
+    <MESSAGE value="add DijkstraAlgorithm to graphs" />
+    <MESSAGE value="refactor: add problem description to LongestHappyString in heaps" />
+    <MESSAGE value="refactor: add problem description to ReduceArraySizeToTheHalf in heaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add problem description to ReduceArraySizeToTheHalf in heaps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
