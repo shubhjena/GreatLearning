@@ -1,5 +1,9 @@
 package Week15_Heaps;
-
+//1338. Reduce Array Size to The Half
+/*
+You are given an integer array arr. You can choose a set of integers and remove all the occurrences of these integers in the array.
+Return the minimum size of the set so that at least half of the integers of the array are removed.
+ */
 import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
