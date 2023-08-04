@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="refactor: add problem description to ReduceArraySizeToTheHalf in heaps">
-      <change afterPath="$PROJECT_DIR$/src/Rough1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rough2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week10_Strings/RabinKarpAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/FlattenBTToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week14_Binary_Search_Tree/NewClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week16_Greedy/BackTracking/BitwiseORsOfSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/ElementLessThanTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java" afterDir="false" />
+    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add: Library management program">
+      <change afterPath="$PROJECT_DIR$/streams.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreatLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GreatLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend_Week1/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend_Week1/BookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend_Week1/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend_Week1/Library1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +46,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2J1hjkVEpw7ur78K1PDe2fANBuS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -74,7 +79,7 @@
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;last.edited.regexp&quot;: &quot;gj18cq8476&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Week14_Binary_Search_Tree/Practice_Problems&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/GreatLearning/src/Backend_Week1/Streams/java/com/amigoscode/beans&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -92,6 +97,7 @@
       <recent name="Week2.Lab_bankManagementTool.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Backend_Week1\Streams\java\com\amigoscode\beans" />
       <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week14_Binary_Search_Tree\Practice_Problems" />
       <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week14_Binary_Search_Tree" />
       <recent name="D:\IDEA Projects\GL_Weekly_Assignments\src" />
@@ -100,6 +106,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning" />
+      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Backend_Week1\Streams\java\com\amigoscode" />
       <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week8_Searching_and_Sorting\Sorting" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -113,13 +121,13 @@
       <recent name="Week8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinomialCoefficient">
-    <configuration name="AdvantageShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.AdvantageShuffle" />
+  <component name="RunManager" selected="Application.Backend_Week1.Library.Client">
+    <configuration name="Backend_Week1.Library.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backend_Week1.Library.Client" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week16_Greedy.*" />
+          <option name="PATTERN" value="Backend_Week1.Library.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.BackTracking.Combination" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backend_Week1.MyArrayList.Client" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week16_Greedy.BackTracking.*" />
+          <option name="PATTERN" value="Backend_Week1.MyArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week16_Greedy.ContainerWithMostWater" />
+    <configuration name="Library1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Backend_Week1.Library1" />
       <module name="GreatLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week16_Greedy.*" />
+          <option name="PATTERN" value="Backend_Week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Backend_Week1.Library.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Library1" />
         <item itemvalue="Application.BinomialCoefficient" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Combination" />
-        <item itemvalue="Application.AdvantageShuffle" />
-        <item itemvalue="Application.ContainerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -197,20 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671251633641</updated>
-    </task>
-    <task id="LOCAL-00175" summary="add CarPooling to week 15 heap">
-      <created>1681659734614</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1681659734614</updated>
-    </task>
-    <task id="LOCAL-00176" summary="add RemoveStonesToMinimizeTheTotal to week 15 heap">
-      <created>1681659780479</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1681659780479</updated>
     </task>
     <task id="LOCAL-00177" summary="add SeatReservationManager to week 15 heap">
       <created>1681659921718</created>
@@ -541,7 +535,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686073359971</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="add: MyArrayList implementation">
+      <created>1690996134849</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1690996134865</updated>
+    </task>
+    <task id="LOCAL-00225" summary="add: Library management program">
+      <created>1691010932111</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1691010932112</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,8 +565,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add RabinKarpAlgorithm to week 10 Strings" />
-    <MESSAGE value="add bag of tokens to Week 16 greedy" />
     <MESSAGE value="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems" />
     <MESSAGE value="update MaxHeap week 15 Heap" />
     <MESSAGE value="add ContainerWithMostWater to week 16 greedy" />
@@ -582,7 +588,9 @@
     <MESSAGE value="add DijkstraAlgorithm to graphs" />
     <MESSAGE value="refactor: add problem description to LongestHappyString in heaps" />
     <MESSAGE value="refactor: add problem description to ReduceArraySizeToTheHalf in heaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: add problem description to ReduceArraySizeToTheHalf in heaps" />
+    <MESSAGE value="add: MyArrayList implementation" />
+    <MESSAGE value="add: Library management program" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: Library management program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
