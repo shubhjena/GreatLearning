@@ -16,7 +16,7 @@ public class Library1 {
                     1. Add book
                     2. Search book
                     3. View books
-                    9. Exit                        
+                    9. Exit                       
                                    
                     Your Choice: """);
             ch = Integer.parseInt(sc.nextLine());

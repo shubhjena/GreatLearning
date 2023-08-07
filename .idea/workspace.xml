@@ -1,630 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="add: Library management program">
+    <list default="true" id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_0_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GreatLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GreatLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backend_Week1/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend_Week1/BookManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backend_Week1/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend_Week1/Library1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backend_Week1/Library1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Enum" />
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="fe6fdca9-a80d-4448-8ad1-dab223a9ac8c" />
-        <option name="url" value="https://github.com/dexter24x7/GreatLearning.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2J1hjkVEpw7ur78K1PDe2fANBuS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2TfGIMJNY12OFC41Rsu4w36fsQW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last.edited.regexp": "gj18cq8476",
     "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Week2.Lab_bankManagementTool.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Backend_Week1\Streams\java\com\amigoscode\beans" />
-      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week14_Binary_Search_Tree\Practice_Problems" />
-      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week14_Binary_Search_Tree" />
-      <recent name="D:\IDEA Projects\GL_Weekly_Assignments\src" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning" />
-      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Backend_Week1\Streams\java\com\amigoscode" />
-      <recent name="D:\Programming Bootcamp\IdeaProjects\GreatLearning\src\Week8_Searching_and_Sorting\Sorting" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Week14_Binary_Search_Tree" />
-      <recent name="Week8_Searching_and_Sorting.Sorting_Techniques" />
-      <recent name="Week2.Lab_bankManagementTool" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Week6" />
-      <recent name="Week9_Searching_and_Sorting.DiscussionProblems" />
-      <recent name="Week8" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Backend_Week1.Library.Client">
-    <configuration name="Backend_Week1.Library.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backend_Week1.Library.Client" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backend_Week1.Library.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinomialCoefficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week17_Dynamic_Programming.BinomialCoefficient" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week17_Dynamic_Programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backend_Week1.MyArrayList.Client" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backend_Week1.MyArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Library1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backend_Week1.Library1" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backend_Week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week18_Graphs.Main" />
-      <module name="GreatLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week18_Graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Backend_Week1.Library.Client" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Library1" />
-        <item itemvalue="Application.BinomialCoefficient" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b13c8462-fdf7-4649-9706-dd6e360d4a45" name="Changes" comment="" />
-      <created>1671251633641</created>
+      <changelist id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="" />
+      <created>1691426644326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671251633641</updated>
+      <updated>1691426644326</updated>
     </task>
-    <task id="LOCAL-00177" summary="add SeatReservationManager to week 15 heap">
-      <created>1681659921718</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1681659921718</updated>
-    </task>
-    <task id="LOCAL-00178" summary="add LongestHappyString to week 15 heap">
-      <created>1681660074484</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1681660074484</updated>
-    </task>
-    <task id="LOCAL-00179" summary="add LongestHappyString to week 15 heap">
-      <created>1681660086673</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1681660086673</updated>
-    </task>
-    <task id="LOCAL-00180" summary="add KClosestPointsToOrigin to week 15 heap practice problems">
-      <created>1681672282964</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1681672282965</updated>
-    </task>
-    <task id="LOCAL-00181" summary="update KClosestPointsToOrigin to week 15 heap practice problems">
-      <created>1681672354507</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1681672354507</updated>
-    </task>
-    <task id="LOCAL-00182" summary="update KClosestPointsToOrigin to week 15 heap practice problems">
-      <created>1681841581743</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1681841581743</updated>
-    </task>
-    <task id="LOCAL-00183" summary="add DestroyingAsteroids to week 16 greedy">
-      <created>1681922472304</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1681922472305</updated>
-    </task>
-    <task id="LOCAL-00184" summary="add DestroyingAsteroids to week 16 greedy">
-      <created>1681922486456</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1681922486456</updated>
-    </task>
-    <task id="LOCAL-00185" summary="add bag of tokens to Week 16 greedy">
-      <created>1681926145932</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1681926145932</updated>
-    </task>
-    <task id="LOCAL-00186" summary="add bag of tokens to Week 16 greedy">
-      <created>1681926156593</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1681926156593</updated>
-    </task>
-    <task id="LOCAL-00187" summary="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems">
-      <created>1681928127651</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1681928127651</updated>
-    </task>
-    <task id="LOCAL-00188" summary="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems">
-      <created>1681928274084</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1681928274084</updated>
-    </task>
-    <task id="LOCAL-00189" summary="update MaxHeap week 15 Heap">
-      <created>1681928418380</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1681928418380</updated>
-    </task>
-    <task id="LOCAL-00190" summary="add ContainerWithMostWater to week 16 greedy">
-      <created>1682001681437</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1682001681438</updated>
-    </task>
-    <task id="LOCAL-00191" summary="add AdvantageShuffle to week 16 greedy">
-      <created>1682012289784</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1682012289784</updated>
-    </task>
-    <task id="LOCAL-00192" summary="add AdvantageShuffle to week 16 greedy">
-      <created>1682017469906</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1682017469906</updated>
-    </task>
-    <task id="LOCAL-00193" summary="add Combination to week 16">
-      <created>1682187743287</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1682187743287</updated>
-    </task>
-    <task id="LOCAL-00194" summary="add Combination to week 16">
-      <created>1682187843099</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1682187843100</updated>
-    </task>
-    <task id="LOCAL-00195" summary="add Combination to week 16">
-      <created>1682530640616</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1682530640616</updated>
-    </task>
-    <task id="LOCAL-00196" summary="add Combination to week 16">
-      <created>1682792656030</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1682792656030</updated>
-    </task>
-    <task id="LOCAL-00197" summary="add Combination to week 16">
-      <created>1682874545424</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1682874545424</updated>
-    </task>
-    <task id="LOCAL-00198" summary="add Combination to week 16">
-      <created>1683567618062</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1683567618062</updated>
-    </task>
-    <task id="LOCAL-00199" summary="add Combination to week 16">
-      <created>1683739128603</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1683739128603</updated>
-    </task>
-    <task id="LOCAL-00200" summary="create week 18">
-      <created>1684520818488</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1684520818488</updated>
-    </task>
-    <task id="LOCAL-00201" summary="add AdjacencyListGraph to week 18">
-      <created>1684520858622</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1684520858622</updated>
-    </task>
-    <task id="LOCAL-00202" summary="add vertex to week 18">
-      <created>1684520893443</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1684520893443</updated>
-    </task>
-    <task id="LOCAL-00203" summary="add main to week 18">
-      <created>1684520906226</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1684520906226</updated>
-    </task>
-    <task id="LOCAL-00204" summary="add BFS to week 18">
-      <created>1684693574256</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1684693574257</updated>
-    </task>
-    <task id="LOCAL-00205" summary="update main to week 18">
-      <created>1684693631390</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1684693631390</updated>
-    </task>
-    <task id="LOCAL-00206" summary="update vertex to week 18">
-      <created>1684693663140</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1684693663140</updated>
-    </task>
-    <task id="LOCAL-00207" summary="update vertex to week 18">
-      <created>1684693677745</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1684693677745</updated>
-    </task>
-    <task id="LOCAL-00208" summary="update vertex to week 18">
-      <created>1684776215920</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1684776215923</updated>
-    </task>
-    <task id="LOCAL-00209" summary="add DFSTraversal to week 18">
-      <created>1684782660742</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1684782660742</updated>
-    </task>
-    <task id="LOCAL-00210" summary="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class">
-      <created>1684783868940</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1684783868940</updated>
-    </task>
-    <task id="LOCAL-00211" summary="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class">
-      <created>1685036537013</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1685036537014</updated>
-    </task>
-    <task id="LOCAL-00212" summary="add DisjointUnionSets to week 18">
-      <created>1685166478059</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1685166478059</updated>
-    </task>
-    <task id="LOCAL-00213" summary="create week17">
-      <created>1685470052904</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1685470052904</updated>
-    </task>
-    <task id="LOCAL-00214" summary="add BellNumber to DP">
-      <created>1685471148914</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1685471148914</updated>
-    </task>
-    <task id="LOCAL-00215" summary="add BinomialCoefficient to Dynamic Programming week 17">
-      <created>1685475715715</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1685475715715</updated>
-    </task>
-    <task id="LOCAL-00216" summary="add CoinChange to Dynamic Programming week 17">
-      <created>1685556635454</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1685556635454</updated>
-    </task>
-    <task id="LOCAL-00217" summary="add CoinChange to Dynamic Programming week 17">
-      <created>1685816249827</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1685816249827</updated>
-    </task>
-    <task id="LOCAL-00218" summary="add PrimAlgorithm to graphs">
-      <created>1685822621468</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1685822621468</updated>
-    </task>
-    <task id="LOCAL-00219" summary="add DijkstraAlgorithm to graphs">
-      <created>1685824484476</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1685824484476</updated>
-    </task>
-    <task id="LOCAL-00220" summary="refactor: add problem description to LongestHappyString in heaps">
-      <created>1685874492194</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1685874492195</updated>
-    </task>
-    <task id="LOCAL-00221" summary="refactor: add problem description to ReduceArraySizeToTheHalf in heaps">
-      <created>1685874837644</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1685874837644</updated>
-    </task>
-    <task id="LOCAL-00222" summary="refactor: add problem description to ReduceArraySizeToTheHalf in heaps">
-      <created>1685903087214</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1685903087214</updated>
-    </task>
-    <task id="LOCAL-00223" summary="refactor: add problem description to ReduceArraySizeToTheHalf in heaps">
-      <created>1686073359970</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1686073359971</updated>
-    </task>
-    <task id="LOCAL-00224" summary="add: MyArrayList implementation">
-      <created>1690996134849</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1690996134865</updated>
-    </task>
-    <task id="LOCAL-00225" summary="add: Library management program">
-      <created>1691010932111</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1691010932112</updated>
-    </task>
-    <option name="localTasksCounter" value="226" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add MinimumSumOfDigitAfterSplitting to Week 16 greedy practice problems" />
-    <MESSAGE value="update MaxHeap week 15 Heap" />
-    <MESSAGE value="add ContainerWithMostWater to week 16 greedy" />
-    <MESSAGE value="add AdvantageShuffle to week 16 greedy" />
-    <MESSAGE value="add Combination to week 16" />
-    <MESSAGE value="create week 18" />
-    <MESSAGE value="add AdjacencyListGraph to week 18" />
-    <MESSAGE value="add vertex to week 18" />
-    <MESSAGE value="add main to week 18" />
-    <MESSAGE value="add BFS to week 18" />
-    <MESSAGE value="update main to week 18" />
-    <MESSAGE value="update vertex to week 18" />
-    <MESSAGE value="add DFSTraversal to week 18" />
-    <MESSAGE value="add DFSTraversal to week 18: add stack implementation of DFS traversal to the class" />
-    <MESSAGE value="add DisjointUnionSets to week 18" />
-    <MESSAGE value="create week17" />
-    <MESSAGE value="add BellNumber to DP" />
-    <MESSAGE value="add BinomialCoefficient to Dynamic Programming week 17" />
-    <MESSAGE value="add CoinChange to Dynamic Programming week 17" />
-    <MESSAGE value="add PrimAlgorithm to graphs" />
-    <MESSAGE value="add DijkstraAlgorithm to graphs" />
-    <MESSAGE value="refactor: add problem description to LongestHappyString in heaps" />
-    <MESSAGE value="refactor: add problem description to ReduceArraySizeToTheHalf in heaps" />
-    <MESSAGE value="add: MyArrayList implementation" />
-    <MESSAGE value="add: Library management program" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: Library management program" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Week9_Searching_and_Sorting/DiscussionProblems/FriendsOfAppropriateAges.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GreatLearning$SortTest.ic" NAME="SortTest Coverage Results" MODIFIED="1676474736521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Week8_Searching_and_Sorting.Sorting.*</FILTER>
-    </SUITE>
   </component>
 </project>
