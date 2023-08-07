@@ -13,6 +13,7 @@ public class BookManager {
 
     boolean searchBook(String book) {
 //        return bookList.stream().filter(x->x.title.equals(book)).collect(Collectors.toList());
+        return false;
     }
 
     void displayBookList() {
