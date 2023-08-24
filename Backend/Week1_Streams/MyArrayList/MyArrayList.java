@@ -1,4 +1,4 @@
-package Backend_Week1.MyArrayList;
+package Week1_Streams.MyArrayList;
 
 import java.util.Arrays;
 

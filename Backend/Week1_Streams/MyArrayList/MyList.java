@@ -1,4 +1,4 @@
-package Backend_Week1.MyArrayList;
+package Week1_Streams.MyArrayList;
 
 public interface MyList {
     void add(int element);

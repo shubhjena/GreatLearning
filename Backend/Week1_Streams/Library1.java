@@ -1,4 +1,4 @@
-package Backend_Week1;
+package Week1_Streams;
 
 import java.util.Scanner;
 

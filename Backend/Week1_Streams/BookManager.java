@@ -1,7 +1,6 @@
-package Backend_Week1;
+package Week1_Streams;
 
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 public class BookManager {
     ArrayList<Book> bookList = new ArrayList<>();

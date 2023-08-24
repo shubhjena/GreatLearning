@@ -1,4 +1,4 @@
-package Backend_Week1;
+package Week1_Streams;
 
 public class Book {
     String title;
