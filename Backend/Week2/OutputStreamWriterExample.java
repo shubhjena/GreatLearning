@@ -1,4 +1,4 @@
-package Backend_Week2.javaio;
+package Backend.Week2;
 
 public class OutputStreamWriterExample {
 }
