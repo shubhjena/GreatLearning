@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/entities/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/service/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/service/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/service/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/employee.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/employee.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/src/main/java/org/example/service/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/src/main/java/org/example/service/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/target/classes/org/example/service/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/target/classes/org/example/service/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning",
+    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning/Backend/Week3_Hibernate",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",

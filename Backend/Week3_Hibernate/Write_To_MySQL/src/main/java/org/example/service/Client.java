@@ -17,8 +17,8 @@ public class Client {
         Session session = sessionFactory.openSession();
         Transaction t = session.beginTransaction();
         Employee e1 = new Employee();
-        e1.setId(2);
-        e1.setName("Name2");
+        e1.setId(3);
+        e1.setName("Name3");
         e1.setSalary(200000);
         session.save(e1);
         t.commit();
