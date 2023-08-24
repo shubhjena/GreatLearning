@@ -17,7 +17,7 @@
         <property name="connection.pool_size">1</property>
 
         <!-- Select our SQL dialect -->
-        <!--        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>-->
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 
         <!-- Echo the SQL to stdout -->
         <property name="show_sql">true</property>
@@ -27,7 +27,8 @@
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <mapping class="org.example.entities.Employee"/>
+<!--        <mapping class="org.example.entities.Employee"/>-->
+        <mapping resource="employee.hbm.xml"/>
     </session-factory>
 
 

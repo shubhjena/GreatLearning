@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE hibernate-mapping PUBLIC
-        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
     <class name="org.example.entities.Employee" table="employee">
-        <id name="id">
+        <id name="id" column="employee_id">
             <generator class="assigned"/>
         </id>
-        <property name="name" />
-        <property name="salary" />
+        <property name="name" column="employee_name"/>
+        <property name="salary" column="employee_salary"/>
     </class>
 </hibernate-mapping>

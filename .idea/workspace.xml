@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/service/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/BookManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/Library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/Library/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/Library/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/Library/FieldName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/Library/FieldName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/Library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/Library1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/Library1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/MyArrayList/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/MyArrayList/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/MyArrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/MyArrayList/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week1/MyArrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week1_Streams/MyArrayList/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week2/BufferedIOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week2_JavaIO_Annotations/BufferedIOExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week2/OutputStreamWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week2_JavaIO_Annotations/OutputStreamWriterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week2_JavaIO_Annotations/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week2/SerializationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week2_JavaIO_Annotations/SerializationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week2/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week2_JavaIO_Annotations/resources/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week2/resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week2_JavaIO_Annotations/resources/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/service/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/java/org/example/service/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/employee.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/employee.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Write_To_MySQL/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "20",
     "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "Errors"
