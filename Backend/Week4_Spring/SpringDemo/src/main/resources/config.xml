@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Enable annotation-based configuration -->
+    <context:annotation-config/>
+
+    <!-- DataSource configuration using DriverManagerDataSource -->
+    <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSourceId">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/Demo"/>
+        <property name="username" value="root"/>
+        <property name="password" value="Admin"/>
+    </bean>
+
+    <!-- Hibernate SessionFactory configuration -->
+    <bean class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" id="sessionFactoryId">
+        <property name="dataSource" ref="dataSourceId"/>
+        <property name="hibernateProperties">
+            <props>
+                <!-- Hibernate dialect for MySQL -->
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+                <!-- Show SQL queries in logs -->
+                <prop key="hibernate.show_sql">true</prop>
+                <!-- Pretty print SQL queries -->
+                <prop key="hibernate.format_sql">true</prop>
+                <!-- Automatically update the database schema -->
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+        <property name="annotatedClasses">
+            <list>
+                <!-- Specify the annotated entity class -->
+                <value>entity.Student</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- TransactionManager configuration for Hibernate -->
+    <bean class="org.springframework.orm.hibernate5.HibernateTransactionManager" id="transactionManagerId">
+        <property name="sessionFactory" ref="sessionFactoryId"/>
+    </bean>
+
+</beans>

@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/entities/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/service/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week4_Spring/SpringDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week4_Spring/SpringDemo/src/main/java/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week4_Spring/SpringDemo/src/main/java/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week4_Spring/SpringDemo/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week4_Spring/SpringDemo/target/classes/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Week4_Spring/SpringDemo/target/classes/org/backendsession/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/src/main/java/org/example/service/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/src/main/java/org/example/service/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/target/classes/org/example/service/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Write_To_MySQL/target/classes/org/example/service/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/service/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Week3_Hibernate/Students_And_Courses_CRUD/src/main/java/com/classroom/service/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +43,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "D:/Programming Bootcamp/IdeaProjects/GreatLearning/Backend/Week3_Hibernate",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming Bootcamp/IdeaProjects/GreatLearning/Backend/Week3_Hibernate&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BufferedIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Backend.Week2.BufferedIOExample" />

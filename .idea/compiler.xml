@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Students_And_Courses_CRUD" />
+        <module name="Backend_Session_14_SpringHibernateIntegrationDemo" />
         <module name="Write_To_MySQL" />
       </profile>
     </annotationProcessing>
