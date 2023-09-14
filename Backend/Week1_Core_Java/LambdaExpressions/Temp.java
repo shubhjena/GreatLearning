@@ -1,4 +1,4 @@
-package Week1_Streams.LambdaExpressions;
+package Week1_Core_Java.LambdaExpressions;
 
 public interface Temp {
     int square(int n);

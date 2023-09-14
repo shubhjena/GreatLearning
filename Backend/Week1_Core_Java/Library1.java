@@ -1,4 +1,4 @@
-package Week1_Streams;
+package Week1_Core_Java;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Library1 {
         do{
             System.out.print("""
                                     
-                    ---Welcome to ABC Library---
+                    ---Welcome to ABC Library_Streams---
                     Please Select an option:
                     1. Add book
                     2. Search book
@@ -48,6 +48,6 @@ public class Library1 {
                 e.getMessage();
             }
         }while (ch!=9);
-        System.out.println("\nThank you for using ABC Library Portal.");
+        System.out.println("\nThank you for using ABC Library_Streams Portal.");
     }
 }

@@ -1,4 +1,4 @@
-package Week1_Streams.Library;
+package Week1_Core_Java.Library_Streams;
 
 import java.util.ArrayList;
 import java.util.List;

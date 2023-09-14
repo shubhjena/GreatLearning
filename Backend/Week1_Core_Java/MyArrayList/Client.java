@@ -1,4 +1,4 @@
-package Week1_Streams.MyArrayList;
+package Week1_Core_Java.MyArrayList;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,13 +1,9 @@
-package Week1_Streams;
+package Week1_Core_Java.Library_Streams;
 
 public class Book {
     String title;
     String author;
-
-    public Book(String title, String author) {
-        this.title = title;
-        this.author = author;
-    }
+    String publisher;
 
     public String getTitle() {
         return title;
@@ -23,5 +19,13 @@ public class Book {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
     }
 }
