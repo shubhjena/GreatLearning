@@ -1,4 +1,4 @@
-package Backend.Week2;
+package Week2_Core_Java.IO;
 
 import java.io.*;
 import java.util.Scanner;
