@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Students_And_Courses_CRUD" />
+        <module name="ECommerceCartExample" />
         <module name="Backend_Session_14_SpringHibernateIntegrationDemo" />
+        <module name="SpringJPA" />
         <module name="Write_To_MySQL" />
+        <module name="Students_And_Courses_CRUD" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringJDBC" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>

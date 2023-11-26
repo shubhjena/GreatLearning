@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GreatLearning.iml" filepath="$PROJECT_DIR$/GreatLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/Week6_JDBC_JPA/Jdbc_JPA/Jdbc_JPA/src/main/main.iml" filepath="$PROJECT_DIR$/Backend/Week6_JDBC_JPA/Jdbc_JPA/Jdbc_JPA/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/Week6_JDBC_JPA/Jdbc_JPA/Jdbc_JPA/src/test/test.iml" filepath="$PROJECT_DIR$/Backend/Week6_JDBC_JPA/Jdbc_JPA/Jdbc_JPA/src/test/test.iml" />
     </modules>
   </component>
 </project>

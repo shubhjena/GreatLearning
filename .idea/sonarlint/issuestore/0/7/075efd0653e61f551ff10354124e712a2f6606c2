@@ -1,0 +1,16 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(¥øî
+V	java:S125"<This block of commented-out lines of code should be removed.(®²Áúøÿÿÿÿ
+V	java:S125("<This block of commented-out lines of code should be removed.(º­ïµøÿÿÿÿ
+Q	java:S125."<This block of commented-out lines of code should be removed.(€ÿá
+P	java:S125:"<This block of commented-out lines of code should be removed.(™şøh
+P	java:S125@"<This block of commented-out lines of code should be removed.(í¿ÓU
+V	java:S125E"<This block of commented-out lines of code should be removed.(€Àµ«üÿÿÿÿ
+B
+java:S1874]",Remove this use of "save"; it is deprecated.(‰¤¤
+@	java:S106_"+Replace this use of System.out by a logger.(ë©
+Q	java:S125b"<This block of commented-out lines of code should be removed.(öòİÈ
+Q
+java:S1128"6Remove this unused import 'org.hibernate.query.Query'.(¤— ´ûÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

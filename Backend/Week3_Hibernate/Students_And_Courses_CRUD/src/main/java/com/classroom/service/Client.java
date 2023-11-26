@@ -35,6 +35,7 @@ public class Client {
         * use get when we are not sure if the id exists
         * use load if we are sure that id definitely exists
         * load has better performance - initializes the object only if it is called
+        * Read lazy loading vs eager loading
         */
 //        Student student = session.find(Student.class,1);
 //        Student student = session.get(Student.class,1);

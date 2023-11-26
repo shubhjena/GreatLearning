@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Enable annotation-based configuration -->
+    <context:annotation-config/>
+    <!-- To define bean directory   -->
+    <context:component-scan base-package="Backend/Week5_SpringWithJPA/SpringJPA"/>
+
+    <!-- DataSource configuration using DriverManagerDataSource -->
+    <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSourceId">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/Demo"/>
+        <property name="username" value="root"/>
+        <property name="password" value="Admin"/>
+    </bean>
+    <bean id="emFactory" class = "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+          p:packageToScan = "entity"
+          p:dataSource-ref = "dataSourceId">
+     <property name="jpaVendorAdapter">
+         <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                 <property name="generateDdl" value="true"/>
+                 <property name="showSql" value="true"/>
+         </bean>
+     </property>
+    </bean>
+    <!-- TransactionManager configuration for Hibernate -->
+    <bean class="org.springframework.orm.jpa.JpaTransactionManager" id="transactionManagerId">
+        <property name="entityManagerFactory" ref="emFactory"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManagerId"/>
+</beans>

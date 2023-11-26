@@ -1,13 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE hibernate-mapping PUBLIC
-        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<hibernate-mapping>
-    <class name="org.example.entities.Employee" table="employee">
-        <id name="id" column="employee_id">
-            <generator class="assigned"/>
-        </id>
-        <property name="name" column="employee_name"/>
-        <property name="salary" column="employee_salary"/>
-    </class>
-</hibernate-mapping>
+<hibernate-configuration>
+    ...
+    <property name="hibernate.cache.use_second_level_cache">true</property>
+    <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+    ...
+</hibernate-configuration>

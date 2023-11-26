@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(þ”è®úÿÿÿÿ
+m
+java:S4276$"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ßªÔËúÿÿÿÿ
+o
+java:S4276)"YRefactor this code to use the more specialised Functional Interface 'IntToDoubleFunction'(ãüê¡
+j
+java:S4276-"TRefactor this code to use the more specialised Functional Interface 'DoubleSupplier'(Ùüžü
