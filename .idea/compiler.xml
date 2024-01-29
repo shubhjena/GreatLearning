@@ -8,13 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ECommerceCartExample" />
         <module name="Backend_Session_14_SpringHibernateIntegrationDemo" />
-        <module name="SpringJPA" />
         <module name="Write_To_MySQL" />
+        <module name="Jdbc_JPA" />
+        <module name="SpringJPA" />
         <module name="Students_And_Courses_CRUD" />
+        <module name="SpringJDBC" />
+        <module name="Custom_Annotation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SpringJDBC" target="20" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Custom_Annotation" options="-parameters" />
+      <module name="Jdbc_JPA" options="-parameters" />
+    </option>
   </component>
 </project>

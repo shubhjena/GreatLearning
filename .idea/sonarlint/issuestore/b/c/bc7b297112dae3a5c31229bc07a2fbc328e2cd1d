@@ -1,4 +1,5 @@
 
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñí¡s
-X
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Â √ª
+V
+java:S4719
+"9Replace charset name argument with StandardCharsets.UTF_8(ë…€‹8÷¯ÎÑ’1

@@ -1,4 +1,3 @@
 
 G
 java:S1874",Remove this use of "save"; it is deprecated.(ŸœÆıÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ÍÉ«“

@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/Backend/Week5_SpringWithJPA/SpringJPA/pom.xml" />
         <option value="$PROJECT_DIR$/Backend/Week5_SpringWithJPA/ECommerceCartExample/pom.xml" />
         <option value="$PROJECT_DIR$/Backend/SpringJDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Week5_SpringWithJPA/SpringJDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Week6_JDBC_JPA/Jdbc_JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Week7_AOP/Custom_Annotation/Custom_Annotation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
