@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="add SerializationExample to Week2">
-      <change afterPath="$PROJECT_DIR$/Backend/Week5_SpringWithJPA/SpringJDBC/SpringJDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/075efd0653e61f551ff10354124e712a2f6606c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/075efd0653e61f551ff10354124e712a2f6606c2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/870698e56bb6642acf49b8b9db5fc65b87c094bd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/870698e56bb6642acf49b8b9db5fc65b87c094bd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc7b297112dae3a5c31229bc07a2fbc328e2cd1d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc7b297112dae3a5c31229bc07a2fbc328e2cd1d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e16e6071ac562196e2f7457df3c5b4d6973350ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e16e6071ac562196e2f7457df3c5b4d6973350ec" afterDir="false" />
+    <list default="true" id="47450394-1aa1-428f-a8d9-c4950dd8d956" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -226,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706454483334</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1706548976516</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706548976516</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,7 +238,8 @@
     <MESSAGE value="add Exception_Handling to Week2" />
     <MESSAGE value="add OutputStreamWriterExample to Week2" />
     <MESSAGE value="add SerializationExample to Week2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SerializationExample to Week2" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
