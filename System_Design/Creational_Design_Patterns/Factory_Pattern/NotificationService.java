@@ -1,4 +1,4 @@
-package Creational_Patterns.Factory_Design_Pattern;
+package Creational_Design_Patterns.Factory_Pattern;
 
 public class NotificationService {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Creational_Patterns.Singleton_Design_Pattern;
+package Creational_Design_Patterns.Singleton_Pattern;
 
 public class LazySingleton {
     //defers the creation of the instance until it is actually needed
