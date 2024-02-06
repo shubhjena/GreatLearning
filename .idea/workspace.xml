@@ -84,7 +84,7 @@
       <recent name="Week2_JavaIO_Annotations.IO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializationExample">
+  <component name="RunManager" selected="Application.LazySingleton">
     <configuration name="BufferedIOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week2_Core_Java.IO.BufferedIOExample" />
       <module name="GreatLearning" />
@@ -104,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Week1_Core_Java.LambdaExpressions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational_Design_Patterns.Singleton_Pattern.LazySingleton" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational_Design_Patterns.Singleton_Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,8 +150,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonLazy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational_Patterns.Singleton_Design_Pattern.SingletonLazy" />
+      <module name="GreatLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational_Design_Patterns.Singleton_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazySingleton" />
+        <item itemvalue="Application.SingletonLazy" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.BufferedIOExample" />
@@ -226,7 +254,63 @@
       <option name="project" value="LOCAL" />
       <updated>1706548976516</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add prototype design pattern to new package system design">
+      <option name="closed" value="true" />
+      <created>1706639291934</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706639291934</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add singleton design patter to creation patterns package">
+      <option name="closed" value="true" />
+      <created>1706721344350</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706721344350</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add factory design pattern to creation patterns package">
+      <option name="closed" value="true" />
+      <created>1706721416883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706721416883</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add abstract factory design pattern to creation patterns package">
+      <option name="closed" value="true" />
+      <created>1706892399410</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706892399410</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor abstract factory design pattern to creation patterns package">
+      <option name="closed" value="true" />
+      <created>1706984678325</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706984678325</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add builder design pattern to creation patterns package">
+      <option name="closed" value="true" />
+      <created>1706984997008</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706984997008</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1706985040966</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706985040966</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +322,12 @@
     <MESSAGE value="add Exception_Handling to Week2" />
     <MESSAGE value="add OutputStreamWriterExample to Week2" />
     <MESSAGE value="add SerializationExample to Week2" />
+    <MESSAGE value="add prototype design pattern to new package system design" />
+    <MESSAGE value="add singleton design patter to creation patterns package" />
+    <MESSAGE value="add factory design pattern to creation patterns package" />
+    <MESSAGE value="add abstract factory design pattern to creation patterns package" />
+    <MESSAGE value="refactor abstract factory design pattern to creation patterns package" />
+    <MESSAGE value="add builder design pattern to creation patterns package" />
     <MESSAGE value="refactor" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
